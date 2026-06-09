@@ -2,9 +2,12 @@ let questions = [];
 let index = 0;
 let showingAnswer = false;
 
-const card = document.getElementById("card");
 const content = document.getElementById("content");
 const counter = document.getElementById("counter");
+const btnLeft = document.getElementById("btn-left");
+const btnQuestion = document.getElementById("btn-question");
+const btnAnswer = document.getElementById("btn-answer");
+const btnRight = document.getElementById("btn-right");
 
 async function load() {
     const res = await fetch("questions.json");
@@ -16,25 +19,28 @@ function renderQuestion() {
     showingAnswer = false;
 
     counter.textContent = `Question ${index + 1} / ${questions.length}`;
-    content.textContent = questions[index].question;
+    content.innerHTML = questions[index].question;
 
-    speak(questions[index].question);
+    speak(stripHtml(questions[index].question));
 }
 
 function showAnswer() {
     showingAnswer = true;
-    content.textContent = questions[index].answer;
+    content.innerHTML = questions[index].answer;
 
-    speak(questions[index].answer);
+    speak(stripHtml(questions[index].answer));
 }
 
-card.addEventListener("click", () => {
-    if (showingAnswer) {
-        renderQuestion();
-    } else {
-        showAnswer();
-    }
-});
+function stripHtml(html) {
+    const temp = document.createElement("div");
+    temp.innerHTML = html;
+    return temp.textContent || temp.innerText || "";
+}
+
+btnLeft.addEventListener("click", prev);
+btnQuestion.addEventListener("click", renderQuestion);
+btnAnswer.addEventListener("click", showAnswer);
+btnRight.addEventListener("click", next);
 
 function next() {
     index = (index + 1) % questions.length;

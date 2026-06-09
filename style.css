@@ -49,6 +49,7 @@ body {
 .card {
     flex: 1;
     margin: 15px;
+    margin-bottom: 110px;
     background: #1f2937;
     border-radius: 20px;
 
@@ -59,8 +60,6 @@ body {
 
     overflow-y: auto;
     -webkit-overflow-scrolling: touch;
-
-    cursor: pointer;
 }
 
 .counter {
@@ -76,12 +75,73 @@ body {
 
     text-align: center;
     white-space: pre-wrap;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
 }
 
-.hint {
-    margin-top: auto;
-    text-align: center;
-    color: #6b7280;
-    font-size: 12px;
-    padding-top: 20px;
+.content img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.floating-panel {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    padding: 15px;
+    background: #1f2937;
+    border-radius: 18px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.4);
+    z-index: 100;
+}
+
+.control-btn {
+    width: 65px;
+    height: 65px;
+    border: none;
+    border-radius: 14px;
+    background: #3b82f6;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.15s ease;
+    user-select: none;
+}
+
+.control-btn:active {
+    transform: scale(0.95);
+    background: #2563eb;
+}
+
+.control-btn:nth-child(2) {
+    background: #10b981;
+}
+
+.control-btn:nth-child(2):active {
+    background: #059669;
+}
+
+.control-btn:nth-child(3) {
+    background: #f59e0b;
+}
+
+.control-btn:nth-child(3):active {
+    background: #d97706;
+}
+
+@media (min-width: 600px) {
+    .floating-panel {
+        bottom: 30px;
+    }
 }
