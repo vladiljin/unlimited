@@ -52,26 +52,6 @@ function prev() {
     renderQuestion();
 }
 
-/* Swipe */
-let startX = 0;
-
-document.addEventListener("touchstart", e => {
-    startX = e.touches[0].clientX;
-});
-
-document.addEventListener("touchend", e => {
-    let endX = e.changedTouches[0].clientX;
-
-    if (endX < startX - 50) next();
-    if (endX > startX + 50) prev();
-});
-
-/* Keyboard */
-document.addEventListener("keydown", e => {
-    if (e.key === "ArrowRight") next();
-    if (e.key === "ArrowLeft") prev();
-});
-
 /* Speech (better voice attempt) */
 function speak(text) {
     speechSynthesis.cancel();
