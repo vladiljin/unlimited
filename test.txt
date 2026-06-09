@@ -1,0 +1,9 @@
+cd C:\Users\vlad1\Desktop\simpleapp
+1. Check changes
+git status
+2. Add everything
+git add .
+3. Commit update
+git commit -m "Improve Unlimited UI, scroll, and voice"
+4. Push to GitHub
+git push --force
