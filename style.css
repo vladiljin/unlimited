@@ -18,8 +18,8 @@ body {
     touch-action: manipulation;
 }
 
-/* Phone frame */
-.phone-container {
+/* phone frame */
+.app {
     width: 100%;
     max-width: 430px;
     height: 100vh;
@@ -29,66 +29,59 @@ body {
     flex-direction: column;
 }
 
-/* Desktop = phone mock */
+/* desktop = phone */
 @media (min-width: 600px) {
-    .phone-container {
+    .app {
         height: 860px;
         border-radius: 25px;
         box-shadow: 0 0 30px rgba(0,0,0,0.6);
-        border: 1px solid #2a2a2a;
     }
 }
 
 .header {
     text-align: center;
     padding: 18px;
+    color: white;
     font-size: 22px;
     font-weight: bold;
-    color: white;
 }
 
 .card {
     flex: 1;
-    margin: 16px;
+    margin: 15px;
     background: #1f2937;
     border-radius: 20px;
 
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
 
-    text-align: center;
-    padding: 25px;
+    padding: 20px;
+
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
 
     cursor: pointer;
-    transition: transform 0.2s ease;
-}
-
-.card:active {
-    transform: scale(0.98);
 }
 
 .counter {
     color: #9ca3af;
-    margin-bottom: 20px;
+    text-align: center;
+    margin-bottom: 15px;
 }
 
 .content {
     color: white;
-    font-size: 26px;
+    font-size: 22px;
     font-weight: bold;
+
+    text-align: center;
+    white-space: pre-wrap;
 }
 
 .hint {
-    margin-top: 30px;
-    color: #6b7280;
-    font-size: 13px;
-}
-
-.footer {
+    margin-top: auto;
     text-align: center;
-    padding: 15px;
     color: #6b7280;
     font-size: 12px;
+    padding-top: 20px;
 }

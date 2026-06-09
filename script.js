@@ -2,17 +2,17 @@ let questions = [];
 let index = 0;
 let showingAnswer = false;
 
+const card = document.getElementById("card");
 const content = document.getElementById("content");
 const counter = document.getElementById("counter");
-const card = document.getElementById("card");
 
 async function load() {
     const res = await fetch("questions.json");
     questions = await res.json();
-    render();
+    renderQuestion();
 }
 
-function render() {
+function renderQuestion() {
     showingAnswer = false;
 
     counter.textContent = `Question ${index + 1} / ${questions.length}`;
@@ -24,12 +24,13 @@ function render() {
 function showAnswer() {
     showingAnswer = true;
     content.textContent = questions[index].answer;
+
     speak(questions[index].answer);
 }
 
 card.addEventListener("click", () => {
     if (showingAnswer) {
-        render();
+        renderQuestion();
     } else {
         showAnswer();
     }
@@ -37,15 +38,15 @@ card.addEventListener("click", () => {
 
 function next() {
     index = (index + 1) % questions.length;
-    render();
+    renderQuestion();
 }
 
 function prev() {
     index = (index - 1 + questions.length) % questions.length;
-    render();
+    renderQuestion();
 }
 
-/* swipe */
+/* Swipe */
 let startX = 0;
 
 document.addEventListener("touchstart", e => {
@@ -59,16 +60,40 @@ document.addEventListener("touchend", e => {
     if (endX > startX + 50) prev();
 });
 
-/* keyboard */
+/* Keyboard */
 document.addEventListener("keydown", e => {
     if (e.key === "ArrowRight") next();
     if (e.key === "ArrowLeft") prev();
 });
 
-/* speech */
+/* Speech (better voice attempt) */
 function speak(text) {
     speechSynthesis.cancel();
-    speechSynthesis.speak(new SpeechSynthesisUtterance(text));
+
+    let utterance = new SpeechSynthesisUtterance(text);
+
+    let voices = speechSynthesis.getVoices();
+
+    let voice =
+        voices.find(v =>
+            v.lang.includes("en") &&
+            v.name.toLowerCase().includes("male")
+        ) ||
+        voices.find(v =>
+            v.lang.includes("en")
+        );
+
+    if (voice) utterance.voice = voice;
+
+    utterance.rate = 0.95;
+    utterance.pitch = 0.8;
+    utterance.volume = 1;
+
+    speechSynthesis.speak(utterance);
 }
+
+speechSynthesis.onvoiceschanged = () => {};
+
+setTimeout(() => speechSynthesis.getVoices(), 200);
 
 load();
