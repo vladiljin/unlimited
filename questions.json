@@ -4,11 +4,11 @@
         "answer": "Ottawa"
     },
     {
-        "question": "What is 5 + 5?",
-        "answer": "10"
+        "question": "What is 2 + 2?",
+        "answer": "4"
     },
     {
-        "question": "Largest planet in the solar system?",
+        "question": "Largest planet?",
         "answer": "Jupiter"
     }
 ]

@@ -2,42 +2,37 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quiz Cards</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+
+    <title>Unlimited</title>
+
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="Unlimited">
+
+    <link rel="manifest" href="manifest.json">
+    <link rel="apple-touch-icon" href="icon.png">
 
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-    <div class="phone-container">
+<div class="phone-container">
 
-        <div class="header">
-            Quiz Cards
-        </div>
+    <div class="header">Unlimited</div>
 
-        <div id="card" class="card">
-
-            <div id="questionNumber" class="counter">
-                Question 1
-            </div>
-
-            <div id="content" class="content">
-                Loading...
-            </div>
-
-            <div class="hint">
-                Tap card to reveal answer
-            </div>
-
-        </div>
-
-        <div class="footer">
-            Swipe ← → to navigate
-        </div>
-
+    <div id="card" class="card">
+        <div id="counter" class="counter"></div>
+        <div id="content" class="content">Loading...</div>
+        <div class="hint">Tap to reveal • Swipe to change</div>
     </div>
 
-    <script src="script.js"></script>
+    <div class="footer">Unlimited Quiz Engine</div>
+
+</div>
+
+<script src="script.js"></script>
 
 </body>
 </html>

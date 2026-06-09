@@ -5,7 +5,7 @@
 }
 
 body {
-    background: #111827;
+    background: #0b1220;
     font-family: Arial, sans-serif;
 
     display: flex;
@@ -13,79 +13,60 @@ body {
     align-items: center;
 
     min-height: 100vh;
+
+    overscroll-behavior: none;
+    touch-action: manipulation;
 }
 
 /* Phone frame */
-
 .phone-container {
     width: 100%;
     max-width: 430px;
-
     height: 100vh;
-    max-height: 900px;
-
-    background: #1f2937;
+    background: #111827;
 
     display: flex;
     flex-direction: column;
-
-    overflow: hidden;
 }
 
-/* Desktop keeps phone size */
-
+/* Desktop = phone mock */
 @media (min-width: 600px) {
-
     .phone-container {
-
-        height: 850px;
-
+        height: 860px;
         border-radius: 25px;
-
-        box-shadow:
-            0 0 30px rgba(0,0,0,0.5);
-
-        border: 1px solid #333;
+        box-shadow: 0 0 30px rgba(0,0,0,0.6);
+        border: 1px solid #2a2a2a;
     }
 }
 
 .header {
     text-align: center;
-    padding: 20px;
-
-    font-size: 24px;
+    padding: 18px;
+    font-size: 22px;
     font-weight: bold;
-
     color: white;
 }
 
 .card {
-
     flex: 1;
-
-    margin: 20px;
-
-    background: #374151;
-
+    margin: 16px;
+    background: #1f2937;
     border-radius: 20px;
 
     display: flex;
     flex-direction: column;
-
     justify-content: center;
     align-items: center;
 
     text-align: center;
-
-    padding: 30px;
+    padding: 25px;
 
     cursor: pointer;
-
-    transition: 0.25s;
+    transition: transform 0.2s ease;
 }
 
-.card:hover {
-    transform: scale(1.02);
+.card:active {
+    transform: scale(0.98);
 }
 
 .counter {
@@ -95,18 +76,19 @@ body {
 
 .content {
     color: white;
-    font-size: 28px;
+    font-size: 26px;
     font-weight: bold;
 }
 
 .hint {
     margin-top: 30px;
-    color: #9ca3af;
-    font-size: 14px;
+    color: #6b7280;
+    font-size: 13px;
 }
 
 .footer {
     text-align: center;
-    padding: 20px;
-    color: #9ca3af;
+    padding: 15px;
+    color: #6b7280;
+    font-size: 12px;
 }

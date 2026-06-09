@@ -1,157 +1,74 @@
 let questions = [];
-
-let currentIndex = 0;
+let index = 0;
 let showingAnswer = false;
 
-const content =
-    document.getElementById("content");
+const content = document.getElementById("content");
+const counter = document.getElementById("counter");
+const card = document.getElementById("card");
 
-const card =
-    document.getElementById("card");
-
-const counter =
-    document.getElementById("questionNumber");
-
-async function loadQuestions()
-{
-    const response =
-        await fetch("questions.json");
-
-    questions =
-        await response.json();
-
-    showQuestion();
+async function load() {
+    const res = await fetch("questions.json");
+    questions = await res.json();
+    render();
 }
 
-function showQuestion()
-{
+function render() {
     showingAnswer = false;
 
-    counter.textContent =
-        `Question ${currentIndex + 1}`;
+    counter.textContent = `Question ${index + 1} / ${questions.length}`;
+    content.textContent = questions[index].question;
 
-    content.textContent =
-        questions[currentIndex].question;
-
-    speak(
-        questions[currentIndex].question
-    );
+    speak(questions[index].question);
 }
 
-function showAnswer()
-{
+function showAnswer() {
     showingAnswer = true;
-
-    content.textContent =
-        questions[currentIndex].answer;
-
-    speak(
-        questions[currentIndex].answer
-    );
+    content.textContent = questions[index].answer;
+    speak(questions[index].answer);
 }
 
-card.addEventListener("click", () =>
-{
-    if(showingAnswer)
-    {
-        showQuestion();
-    }
-    else
-    {
+card.addEventListener("click", () => {
+    if (showingAnswer) {
+        render();
+    } else {
         showAnswer();
     }
 });
 
-function nextQuestion()
-{
-    currentIndex++;
-
-    if(currentIndex >= questions.length)
-    {
-        currentIndex = 0;
-    }
-
-    showQuestion();
+function next() {
+    index = (index + 1) % questions.length;
+    render();
 }
 
-function previousQuestion()
-{
-    currentIndex--;
-
-    if(currentIndex < 0)
-    {
-        currentIndex =
-            questions.length - 1;
-    }
-
-    showQuestion();
+function prev() {
+    index = (index - 1 + questions.length) % questions.length;
+    render();
 }
 
-/* Swipe support */
+/* swipe */
+let startX = 0;
 
-let touchStartX = 0;
+document.addEventListener("touchstart", e => {
+    startX = e.touches[0].clientX;
+});
 
-document.addEventListener(
-    "touchstart",
-    e =>
-    {
-        touchStartX =
-            e.changedTouches[0].screenX;
-    }
-);
+document.addEventListener("touchend", e => {
+    let endX = e.changedTouches[0].clientX;
 
-document.addEventListener(
-    "touchend",
-    e =>
-    {
-        let touchEndX =
-            e.changedTouches[0].screenX;
+    if (endX < startX - 50) next();
+    if (endX > startX + 50) prev();
+});
 
-        let distance =
-            touchEndX - touchStartX;
+/* keyboard */
+document.addEventListener("keydown", e => {
+    if (e.key === "ArrowRight") next();
+    if (e.key === "ArrowLeft") prev();
+});
 
-        if(distance < -50)
-        {
-            nextQuestion();
-        }
-
-        if(distance > 50)
-        {
-            previousQuestion();
-        }
-    }
-);
-
-/* Desktop arrows */
-
-document.addEventListener(
-    "keydown",
-    e =>
-    {
-        if(e.key === "ArrowRight")
-        {
-            nextQuestion();
-        }
-
-        if(e.key === "ArrowLeft")
-        {
-            previousQuestion();
-        }
-    }
-);
-
-/* Voice */
-
-function speak(text)
-{
+/* speech */
+function speak(text) {
     speechSynthesis.cancel();
-
-    const speech =
-        new SpeechSynthesisUtterance(text);
-
-    speech.rate = 1;
-
-    speechSynthesis.speak(speech);
+    speechSynthesis.speak(new SpeechSynthesisUtterance(text));
 }
 
-loadQuestions();
+load();
