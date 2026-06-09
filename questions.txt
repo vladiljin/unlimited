@@ -1,0 +1,18 @@
+--- QUESTION 0001 ---
+What is the capital of Canada?
+--- ANSWER ---
+Ottawa
+
+--- QUESTION 0002 ---
+What is 2 + 2?
+--- ANSWER ---
+4
+
+--- QUESTION 0003 ---
+Largest planet?
+--- ANSWER ---
+[IMAGE: jupiter.jpg]
+
+Jupiter is the largest planet in our Solar System and the fifth planet from the Sun. It is a gas giant, meaning it has no solid surface like Earth. Instead, it is made mostly of hydrogen and helium gas, with deeper layers becoming more dense and under extreme pressure.
+
+Jupiter is famous for its Great Red Spot, a massive storm that has been raging for at least 300 years. This storm is larger than Earth itself. The planet also has very strong winds, powerful lightning, and intense radiation belts.

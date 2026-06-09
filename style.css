@@ -40,10 +40,92 @@ body {
     color: white;
     font-size: 22px;
     font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.header .title {
+    flex: 1;
+    text-align: center;
+}
+
+.settings-btn {
+    position: absolute;
+    right: 18px;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+    user-select: none;
+    padding: 5px;
+}
+
+.modal {
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal.hidden {
+    display: none;
+}
+
+.modal-content {
+    background-color: #1f2937;
+    padding: 25px;
+    border-radius: 20px;
+    width: 90%;
+    max-width: 350px;
+    color: white;
+    position: relative;
+}
+
+.close-btn {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+    position: absolute;
+    right: 18px;
+    top: 12px;
+}
+
+.close-btn:hover {
+    color: white;
+}
+
+.modal-content h2 {
+    margin-bottom: 25px;
+    padding-top: 10px;
+}
+
+.setting-group {
+    margin-bottom: 25px;
+}
+
+.setting-group label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.setting-group input[type="range"] {
+    width: 100%;
 }
 
 .card-container {
-    flex: 4; /* 80% of space */
+    flex: 4;
     display: flex;
     padding: 15px;
     overflow: hidden;
@@ -60,10 +142,21 @@ body {
     -webkit-overflow-scrolling: touch;
 }
 
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.question-id {
+    color: #4b5563;
+    font-size: 14px;
+}
+
 .counter {
     color: #9ca3af;
-    text-align: center;
-    margin-bottom: 15px;
+    font-size: 14px;
 }
 
 .content {
@@ -85,7 +178,7 @@ body {
 }
 
 .panel-container {
-    flex: 1; /* 20% of space */
+    flex: 1;
     display: flex;
     justify-content: center;
     align-items: center;
