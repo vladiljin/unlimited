@@ -1,0 +1,18 @@
+This is OCR-extracted text and may contain OCR errors, incomplete words, or incorrect numbers. You are a professional editor and quiz writer. First, correct obvious OCR mistakes while preserving the original meaning. Then create as many high-quality quiz questions and answers as possible based only on the provided text.
+Use exactly this format:
+
+--- QUESTION 0001 ---
+Question text
+--- ANSWER ---
+Answer text
+
+Number questions sequentially with four digits (0001, 0002, ...) Start with 0020.
+If an image is needed for the answer, place it on the first line after --- ANSWER --- using:
+
+[IMAGE: filename.jpg]
+
+
+followed by the answer text.
+Questions should be clear, concise, and avoid giving away the answer. Answers should be accurate and may include a brief explanation when helpful. Output only the formatted question-answer pairs with no additional text.
+
+OCR Text:
