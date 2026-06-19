@@ -2712,7 +2712,7 @@
   {
     "id": "0543",
     "question": "What is the formula used to calculate the shift in the center of gravity (GG1) during the Inclining Experiment?",
-    "answer": "<img src=\"Image/page-3.jpg\">\nGG1 = (w * d) / W, where 'w' is the shifted weight, 'd' is the distance the weight is moved, and 'W' is the displacement of the vessel."
+    "answer": "<img src=\"Image/gg1-formula.jpg\">\nGG1 = (w * d) / W, where 'w' is the shifted weight, 'd' is the distance the weight is moved, and 'W' is the displacement of the vessel."
   },
   {
     "id": "0544",
@@ -2772,7 +2772,7 @@
   {
     "id": "0555",
     "question": "Describe how a plumb line is utilized to measure deflection when conducting the Inclining Experiment.",
-    "answer": "<img src=\"Image/page-13.jpg\">\nA plumb line is suspended from a point 'O'. When the ship is upright, it hangs down and crosses a batten at point 'X'. When the ship is listed, the plumb line deflects to point 'Y' along the batten to measure the deflection.\n\"\"\"\nprint(\"Total questions:\", len(text.strip().split(\"--- QUESTION \")))\n\n\n\n```\n\n```text\nTotal questions: 16\n\n\n```\n\n```python\noutput = \"\"\""
+    "answer": "<img src=\"Image/page-13.jpg\">\nA plumb line is suspended from a point 'O'. When the ship is upright, it hangs down and crosses a batten at point 'X'. When the ship is listed, the plumb line deflects to point 'Y' along the batten to measure the deflection."
   },
   {
     "id": "0541",
@@ -2787,7 +2787,7 @@
   {
     "id": "0543",
     "question": "What formula calculates the shift in the center of gravity during the Inclining Experiment?",
-    "answer": "<img src=\"Image/page-3.jpg\">\n\nGG1 = (w * d) / W, where w is the shifted weight, d is the distance the weight is moved, and W is the displacement of the vessel."
+    "answer": "<img src=\"Image/gg1-formula.jpg\">\n\nGG1 = (w * d) / W, where w is the shifted weight, d is the distance the weight is moved, and W is the displacement of the vessel."
   },
   {
     "id": "0544",
@@ -2847,7 +2847,7 @@
   {
     "id": "0555",
     "question": "How is a plumb line and batten setup used to measure deflection when the ship is listed during the Inclining Experiment?",
-    "answer": "<img src=\"Image/page-13.jpg\">\n\nA plumb line is suspended and attached to a point O. When the ship is upright, it hangs down and crosses a batten at point X. When the ship is listed, the plumb line is deflected to point Y along the batten.\n\"\"\"\nprint(output)\n\n\n\n```\n\n```text"
+    "answer": "<img src=\"Image/page-13.jpg\">\n\nA plumb line is suspended and attached to a point O. When the ship is upright, it hangs down and crosses a batten at point X. When the ship is listed, the plumb line is deflected to point Y along the batten."
   },
   {
     "id": "0541",
@@ -2862,7 +2862,7 @@
   {
     "id": "0543",
     "question": "What formula calculates the shift in the center of gravity during the Inclining Experiment?",
-    "answer": "<img src=\"Image/page-3.jpg\">\n\nGG1 = (w * d) / W, where w is the shifted weight, d is the distance the weight is moved, and W is the displacement of the vessel."
+    "answer": "<img src=\"Image/gg1-formula.jpg\">\n\nGG1 = (w * d) / W, where w is the shifted weight, d is the distance the weight is moved, and W is the displacement of the vessel."
   },
   {
     "id": "0544",
@@ -2922,7 +2922,7 @@
   {
     "id": "0555",
     "question": "How is a plumb line and batten setup used to measure deflection when the ship is listed during the Inclining Experiment?",
-    "answer": "<img src=\"Image/page-13.jpg\">\n\nA plumb line is suspended and attached to a point O. When the ship is upright, it hangs down and crosses a batten at point X. When the ship is listed, the plumb line is deflected to point Y along the batten.\n\n\n\n```"
+    "answer": "<img src=\"Image/page-13.jpg\">\n\nA plumb line is suspended and attached to a point O. When the ship is upright, it hangs down and crosses a batten at point X. When the ship is listed, the plumb line is deflected to point Y along the batten."
   },
   {
     "id": "0541",
@@ -2937,7 +2937,7 @@
   {
     "id": "0543",
     "question": "What formula calculates the shift in the center of gravity during the Inclining Experiment?",
-    "answer": "<img src=\"Image/page-3.jpg\">\n\nGG1 = (w * d) / W, where w is the shifted weight, d is the distance the weight is moved, and W is the displacement of the vessel."
+    "answer": "<img src=\"Image/gg1-formula-3.jpg\">\n\nGG1 = (w * d) / W, where w is the shifted weight, d is the distance the weight is moved, and W is the displacement of the vessel."
   },
   {
     "id": "0544",
@@ -4528,101 +4528,6 @@
     "id": "0861",
     "question": "Identify three main components or locations where errors can originate within a GPS/GNSS system.",
     "answer": "1. The satellites (orbit errors, clocks)\n2. The radio signal in space (ionosphere/troposphere delay, multipath reflections)\n3. The receiver on the ground (user equipment errors)"
-  },
-  {
-    "id": "0862",
-    "question": "What maritime symbol or display status is indicated by the ECDIS symbol on page-1.jpg?",
-    "answer": "<img src=\"Image/page-1.jpg\">\nRadar Standby"
-  },
-  {
-    "id": "0863",
-    "question": "What specific type of navigation mark is identified on page-11.jpg?",
-    "answer": "<img src=\"Image/page-10.jpg\">\nSouth Cardinal Mark"
-  },
-  {
-    "id": "0864",
-    "question": "What type of hazard or aid to navigation is shown on page-13.jpg?",
-    "answer": "<img src=\"Image/page-12.jpg\">\nIsolated danger"
-  },
-  {
-    "id": "0865",
-    "question": "What kind of maritime mark is represented on page-15.jpg?",
-    "answer": "<img src=\"Image/page-14.jpg\">\nSafe water mark"
-  },
-  {
-    "id": "0866",
-    "question": "What navigation system equipment or signal type is identified on page-17.jpg?",
-    "answer": "<img src=\"Image/page-16.jpg\">\nRadar Transponder"
-  },
-  {
-    "id": "0867",
-    "question": "What specific floating aid to navigation with an audible warning is indicated on page-19.jpg?",
-    "answer": "<img src=\"Image/page-18.jpg\">\nLighted super buoy with fog signal"
-  },
-  {
-    "id": "0868",
-    "question": "What specific aid to navigation or hazard feature is identified on page-21.jpg?",
-    "answer": "<img src=\"Image/page-20.jpg\">\nIsolated danger mark"
-  },
-  {
-    "id": "0869",
-    "question": "What maritime service location or boarding facility is shown on page-23.jpg?",
-    "answer": "<img src=\"Image/page-22.jpg\">\nPilot Station"
-  },
-  {
-    "id": "0870",
-    "question": "What category of navigation aids is identified on page-25.jpg?",
-    "answer": "<img src=\"Image/page-24.jpg\">\nSpecial marks"
-  },
-  {
-    "id": "0871",
-    "question": "What ECDIS data quality indicator or feature classification is shown on page-27.jpg?",
-    "answer": "<img src=\"Image/page-26.jpg\">\nCatzoc (Category of Zone of Confidence)"
-  },
-  {
-    "id": "0872",
-    "question": "What chart feature or text indicator is represented on page-29.jpg?",
-    "answer": "<img src=\"Image/page-28.jpg\">\nAdditional information note"
-  },
-  {
-    "id": "0873",
-    "question": "What traffic routing feature is identified on page-3.jpg?",
-    "answer": "<img src=\"Image/page-2.jpg\">\nroundabout"
-  },
-  {
-    "id": "0874",
-    "question": "What category of IALA buoyage marks is identified on page-31.jpg?",
-    "answer": "<img src=\"Image/page-30.jpg\">\nCardinal marks"
-  },
-  {
-    "id": "0875",
-    "question": "What type of anchoring or securing arrangement is shown on page-33.jpg?",
-    "answer": "<img src=\"Image/page-32.jpg\">\nMooring buoy"
-  },
-  {
-    "id": "0876",
-    "question": "What specific underwater hazards are represented by the symbol on page-35.jpg?",
-    "answer": "<img src=\"Image/page-34.jpg\">\nIsolated danger; wreck rock or obstruction"
-  },
-  {
-    "id": "0877",
-    "question": "What type of chart entry or warning indicator is represented on page-37.jpg?",
-    "answer": "<img src=\"Image/page-36.jpg\">\nIsolated query mark indicating insufficient information to symbolise feature"
-  },
-  {
-    "id": "0878",
-    "question": "What lateral aid to navigation system and side is identified on page-5.jpg?",
-    "answer": "<img src=\"Image/page-4.jpg\">\nStbd Lateral Mark IALA A"
-  },
-  {
-    "id": "0879",
-    "question": "What lateral aid to navigation system and side is identified on page-7.jpg?",
-    "answer": "<img src=\"Image/page-6.jpg\">\nPort hand lateral IALA B"
-  },
-  {
-    "id": "0880",
-    "question": "What specific temporary or specialized navigation mark is identified on page-9.jpg?",
-    "answer": "<img src=\"Image/page-8.jpg\">\nEmergency Wreck or special purpose"
   },
   {
     "id": "0881",
@@ -9748,5 +9653,725 @@
     "id": "1905",
     "question": "What function does a bill of lading perform regarding loaded goods?",
     "answer": "It serves as a receipt for the goods loaded."
+  },
+  {
+    "id": "1906",
+    "question": "When a ship is in sheltered harbor waters, how does its permitted stress level from static loads compare to when it is at sea?",
+    "answer": "The ship's hull girder is permitted to carry a higher level of stress imposed by static loads in a harbor because it is subjected to reduced dynamic loads."
+  },
+  {
+    "id": "1907",
+    "question": "What instrument provides the means to calculate the shear forces and bending moments for any ship load or ballast condition onboard?",
+    "answer": "The ship's loading instrument."
+  },
+  {
+    "id": "1908",
+    "question": "According to the provided maximum permissible still water shear forces table, what is the positive permissible shear force in kilonewtons (kN) at frame 24 under harbor conditions?",
+    "answer": "20,500 kN"
+  },
+  {
+    "id": "1909",
+    "question": "According to the maximum permissible still water bending moments table, what is the negative permissible bending moment in kilonewton-meters (kNm) at frame 37 under sea conditions?",
+    "answer": "-180,000 kNm"
+  },
+  {
+    "id": "1910",
+    "question": "What is the definition of Safe Working Load (SWL)?",
+    "answer": "The maximum load that lifting equipment is certified to withstand and use."
+  },
+  {
+    "id": "1911",
+    "question": "What is the definition of Working Load Limit (WLL)?",
+    "answer": "The maximum load that lifting equipment is certified to withstand under normal use and in a given configuration."
+  },
+  {
+    "id": "1912",
+    "question": "According to the IMCA Guidelines for Lifting Operations, what is a \"Thorough examination\"?",
+    "answer": "An examination carried out by an independent competent person, carefully and critically, and supplemented where necessary by other means of measurement, non-destructive testing, or other testing, to detect defects or weaknesses and assess their importance regarding safety and continued use."
+  },
+  {
+    "id": "1913",
+    "question": "What are the minimum draught restrictions for the vessel's fore and aft positions, including the recommendation for when slamming is expected?",
+    "answer": "The minimum draught fore is 5.20 m (recommended when slamming can be expected), and the minimum draught aft is 6.50 m (or 7.10 m for heavy ballast condition only)."
+  },
+  {
+    "id": "1914",
+    "question": "Which code and regulations govern the carriage of project cargo/heavy lifts under international requirements and UK standards?",
+    "answer": "The CSS Code (Code of Safe Practice for Cargo Stowage and Securing) and the UK LOLER Regulations (Lifting Operations and Lifting Equipment Regulations)."
+  },
+  {
+    "id": "1915",
+    "question": "Under which SOLAS chapter are the Cargo Securing Manual and the Carriage of Cargoes regulated?",
+    "answer": "SOLAS Chapter VI (and Chapter VII for cargo securing requirements)."
+  },
+  {
+    "id": "1916",
+    "question": "What international guidelines govern the safe packing of cargo in containers?",
+    "answer": "CTU Packing Guidelines (Cargo Transport Units Packing Guidelines)."
+  },
+  {
+    "id": "1917",
+    "question": "What five general steps define the process for lifting operations within a ship's safety management system?",
+    "answer": "1. Complete the lift in accordance with the safety management system\n2. Plan the lift (develop a Lifting Plan)\n3. Conduct a risk assessment\n4. Ensure the operation is supervised\n5. Ensure the operation is completed with competent personnel and proper equipment"
+  },
+  {
+    "id": "1918",
+    "question": "List three environmental considerations to assess prior to a heavy lift operation.",
+    "answer": "Any three of the following: weather, wind, and sea forces; maximum significant wave height; maximum wind speed; and vessel motion and stability."
+  },
+  {
+    "id": "1919",
+    "question": "List three operational considerations regarding vessel capabilities and equipment for heavy lift operations.",
+    "answer": "Any three of the following: vessel lifting arrangements; vessel capabilities and procedures to operate lifting systems; operational limitations of equipment; limitations of cargo capacities; stability limiting curves; recommendations for calculating ship's loading conditions; maximum duration of lift; and traffic/traffic control limitations."
+  },
+  {
+    "id": "1920",
+    "question": "What structural items or records must a lifting plan utilize to ensure all equipment is certified and properly maintained?",
+    "answer": "The Lifting Register and the Planned Maintenance System (PMS)."
+  },
+  {
+    "id": "1921",
+    "question": "According to the Intact Stability Code 2008, what is the formula for the threshold value for heeling moment (M)?",
+    "answer": "M = 0.67 * GM * (f/B)"
+  },
+  {
+    "id": "1922",
+    "question": "What three specific physical parameters of the load must be factored into the operational considerations for stability under the Intact Stability Code?",
+    "answer": "1. The size of the vertical load\n2. The transverse distance between the point of lift and the centerline\n3. The vertical height of the load (KG load)"
+  },
+  {
+    "id": "1923",
+    "question": "What factors should be assessed regarding the load itself and its handling before executing a heavy lift?",
+    "answer": "The weight of the load (and whether it is verified), the certification of the lifting points, the center of gravity (COG), whether the load is fragile, and whether it contains liquids."
+  },
+  {
+    "id": "1924",
+    "question": "What actions should be taken regarding the ship's physical position and access equipment immediately prior to starting a heavy lift operation?",
+    "answer": "Check the vessel moorings, pre-rig fenders, lift the gangway, and lower or remove the ship's railings."
+  },
+  {
+    "id": "1925",
+    "question": "Why are steadying lines attached to a heavy load prior to lifting?",
+    "answer": "To control the movement of the load and prevent swinging during the lift."
+  },
+  {
+    "id": "1926",
+    "question": "What are the three categories of solid bulk cargoes defined by the IMSBC Code?",
+    "answer": "Group A, Group B, and Group C."
+  },
+  {
+    "id": "1927",
+    "question": "How is a Group A solid bulk cargo defined?",
+    "answer": "Cargoes which may liquefy if shipped at a moisture content exceeding their Transportable Moisture Limit (TML)."
+  },
+  {
+    "id": "1928",
+    "question": "How is a Group B solid bulk cargo defined?",
+    "answer": "Cargoes which possess a chemical hazard which could give rise to a dangerous situation on a ship."
+  },
+  {
+    "id": "1929",
+    "question": "How is a Group C solid bulk cargo defined?",
+    "answer": "Cargoes which are neither liable to liquefy (Group A) nor possess chemical hazards (Group B)."
+  },
+  {
+    "id": "1930",
+    "question": "According to the passenger vessel stability criteria after flooding, what is the minimum value that the final GM must not be less than?",
+    "answer": "0.05 m (50 mm)"
+  },
+  {
+    "id": "1931",
+    "question": "According to the criteria for passenger vessels after flooding, what three factors determine the heeling moment used to calculate the righting lever (GZ)?",
+    "answer": "(i) Crowding of passengers to one side, (ii) launching of fully loaded survival craft on one side, or (iii) pressure of wind on one side; whichever is the greater."
+  },
+  {
+    "id": "1932",
+    "question": "What is the minimum required residual area for the righting lever curve of a passenger vessel after flooding?",
+    "answer": "Not less than 0.015 m-rad."
+  },
+  {
+    "id": "1933",
+    "question": "What is the minimum allowable maximum righting lever (GZ) value for passenger vessels after flooding?",
+    "answer": "0.1 m"
+  },
+  {
+    "id": "1934",
+    "question": "What is the standard minimum range of stability required for a passenger vessel after flooding, and under what condition can it be reduced to 10 degrees?",
+    "answer": "The range must not be less than 15 degrees, but it can be reduced to 10 degrees if the residual area is greater than 0.015 + (0.015 x 15) m-rad."
+  },
+  {
+    "id": "1935",
+    "question": "What is the maximum allowable final list for a passenger vessel experiencing 1-compartment flooding?",
+    "answer": "Not greater than 7 degrees."
+  },
+  {
+    "id": "1936",
+    "question": "What is the maximum allowable final list for a passenger vessel experiencing flooding in two or more adjacent compartments?",
+    "answer": "Not greater than 12 degrees."
+  },
+  {
+    "id": "1937",
+    "question": "When major progressive flooding occurs that causes a rapid reduction in the righting lever of 0.04 metres or more, how is the righting lever curve evaluated?",
+    "answer": "The curve is considered terminated at the angle at which the progressive flooding occurs, and the range and area must be measured to that specific angle."
+  },
+  {
+    "id": "1938",
+    "question": "Which software suite is highlighted for providing a clear user interface for monitoring live stability conditions, assessing damage results, and handling planning processes simultaneously?",
+    "answer": "NAPA Stability"
+  },
+  {
+    "id": "1939",
+    "question": "What water density value is typically used in the NAPA Stability draft survey calculation window shown in the text?",
+    "answer": "1.025 t/m3"
+  },
+  {
+    "id": "1940",
+    "question": "What features does the NAPA Emergency Computer platform use to continuously monitor and assess an intact ship's overall safety and vulnerability level?",
+    "answer": "It monitors sensors, open watertight doors, and sea conditions, displaying the overall vulnerability level via a green-yellow-red color code."
+  },
+  {
+    "id": "1941",
+    "question": "How does the NAPA Emergency Computer respond when water ingress is detected by flooding level sensors or via manual input?",
+    "answer": "It automatically switches over to emergency mode and begins calculating a flooding assessment, allowing officers to monitor the effects on a timeline."
+  },
+  {
+    "id": "1942",
+    "question": "What tool is included in the NAPA Emergency Computer to assist the crew with an emergency plan, checklists, or multi-level task advisories during a flooding incident?",
+    "answer": "Advisory cards"
+  },
+  {
+    "id": "1943",
+    "question": "How can shoreside experts or Fleet Operations Centers access critical NAPA Stability information remotely?",
+    "answer": "Through a cloud-based platform called NAPA Fleet Intelligence."
+  },
+  {
+    "id": "1944",
+    "question": "How is the term \"permeability\" defined in the context of ship stability and flooding?",
+    "answer": "Permeability refers to the amount of water that can enter a space if that compartment is breached or flooded."
+  },
+  {
+    "id": "1945",
+    "question": "According to MSN 1715, what is the specific permeability value assigned to spaces occupied by accommodation?",
+    "answer": "0.95"
+  },
+  {
+    "id": "1946",
+    "question": "According to MSN 1715, what is the permeability value assigned to spaces appropriated to stores?",
+    "answer": "0.60"
+  },
+  {
+    "id": "1947",
+    "question": "According to MSN 1715, what is the permeability value assigned to machinery spaces?",
+    "answer": "0.85"
+  },
+  {
+    "id": "1948",
+    "question": "According to MSN 1715, what is the permeability value assigned to dry cargo spaces?",
+    "answer": "0.70"
+  },
+  {
+    "id": "1949",
+    "question": "What are the three consequences of ship flooding listed in the text?",
+    "answer": "1. Loss of freeboard, 2. Change of trim, and 3. Listing."
+  },
+  {
+    "id": "1950",
+    "question": "What types of bulkheads are utilized in ship design to sub-divide a ship and contain flooding to the minimum number of spaces?",
+    "answer": "Transverse bulkheads and longitudinal bulkheads."
+  },
+  {
+    "id": "1951",
+    "question": "Which convention and specific chapters/annexes govern the subdivision and damage stability standards for Passenger Ships and Oil Tankers respectively?",
+    "answer": "Passenger Ships are governed by SOLAS Chapter II-1 (Parts B to B-4), and Oil Tankers are governed by MARPOL Annex I."
+  },
+  {
+    "id": "1952",
+    "question": "Which international safety code applies to the construction and equipment of chemical tankers carrying dangerous chemicals in bulk?",
+    "answer": "The International Bulk Chemical Code (IBC Code)."
+  },
+  {
+    "id": "1953",
+    "question": "Which international code governs the subdivision and stability standards for gas carriers carrying liquefied gases in bulk?",
+    "answer": "The International Gas Carrier Code (IGC Code)."
+  },
+  {
+    "id": "1954",
+    "question": "What are the three distinct methods of calculation used for subdivision and damage stability as listed in the text?",
+    "answer": "1. Floodable length method, 2. Probabilistic method, and 3. Deterministic method."
+  },
+  {
+    "id": "1955",
+    "question": "In what year was the floodable length method removed from SOLAS and replaced by the probabilistic method for passenger ships?",
+    "answer": "2009"
+  },
+  {
+    "id": "1956",
+    "question": "To which types and sizes of vessels does the probabilistic method of stability calculation apply?",
+    "answer": "Internationally trading passenger ships of all sizes, and cargo ships of more than 500 GT and a length of 80 metres or more."
+  },
+  {
+    "id": "1957",
+    "question": "To which categories of specialized ships is the deterministic method of damage stability calculation applicable?",
+    "answer": "Tankers, gas carriers, and chemical carriers."
+  },
+  {
+    "id": "1958",
+    "question": "What mandatory damage control documentation must be carried onboard to assist the crew, as listed under \"Information Required Onboard\"?",
+    "answer": "Damage Control Plans and Damage Control Booklets."
+  },
+  {
+    "id": "1959",
+    "question": "What curves or tables must be included in a ship's Damage Control Booklet to ensure compliance with stability requirements?",
+    "answer": "A curve of minimum operational GM versus draft, or a corresponding curve of maximum allowable vertical centre of gravity (KG) versus draft (or a tabular representation of either curve)."
+  },
+  {
+    "id": "1960",
+    "question": "What visual indicator is required on the bridge of a passenger vessel regarding damage control features?",
+    "answer": "A visual indication of the status (open or closed) of each watertight door."
+  },
+  {
+    "id": "1961",
+    "question": "How often must a Passenger Ship Damage Control Drill be conducted?",
+    "answer": "At least every 3 months."
+  },
+  {
+    "id": "1962",
+    "question": "Who is required to participate in the Passenger Ship Damage Control Drills?",
+    "answer": "Only crew members with damage control responsibilities."
+  },
+  {
+    "id": "1963",
+    "question": "Name four items that must be included in the practical training or evaluation during a passenger ship damage control drill.",
+    "answer": "Any four of the following: reporting to stations; using damage control information/stability computers; establishing internal/external communications; operating watertight doors; using flooding detection systems; operating cross-flooding/equalization systems; operating bilge pumps; or receiving instruction in damage surveys."
+  },
+  {
+    "id": "1964",
+    "question": "According to SOLAS 1974 regulation III/29, what system must be provided on the navigation bridge of all passenger ships for emergency management?",
+    "answer": "A decision support system for masters."
+  },
+  {
+    "id": "1965",
+    "question": "Which plan is required on board passenger ships to outline emergency response actions with appropriate search and rescue services?",
+    "answer": "A search and rescue cooperation plan (mandated by SOLAS 1974 regulation V/7.3)."
+  },
+  {
+    "id": "1966",
+    "question": "What information must be included in the list of operational limitations kept on board a passenger ship under SOLAS 1974 regulation V/30?",
+    "answer": "All limitations on the operation of the ship, including exemptions from SOLAS regulations, restrictions in operating areas, weather restrictions, sea state restrictions, restrictions in permissible loads, trim, speed, and any other administration or design limits."
+  },
+  {
+    "id": "1967",
+    "question": "Under the provisions of the Special Trade Passenger Ships Agreement, 1971, what certificate is issued to verify safety compliance?",
+    "answer": "Special Trade Passenger Ship Safety Certificate."
+  },
+  {
+    "id": "1968",
+    "question": "Which certificate is issued under the provisions of the 1973 Protocol on Space Requirements for Special Trade Passenger Ships?",
+    "answer": "Special Trade Passenger Ship Space Certificate."
+  },
+  {
+    "id": "1969",
+    "question": "A certificate of insurance or financial security regarding liability for passenger death and personal injury is required for ships licensed to carry more than how many passengers?",
+    "answer": "More than 12 passengers."
+  },
+  {
+    "id": "1970",
+    "question": "Under PAL 1974 (modified by PAL PROT 2002), if a ship is not registered in a State Party, who may issue or certify its certificate of financial security for passenger liability?",
+    "answer": "The appropriate authority of any State Party."
+  },
+  {
+    "id": "1971",
+    "question": "What specific examples of exceptions and limitations are recommended for insurance certificates under resolution A.988(24) and Circular Letter No. 2758?",
+    "answer": "The biochemical clause and terrorism-related clauses."
+  },
+  {
+    "id": "1972",
+    "question": "What is the minimum gross tonnage required for a cargo ship to be issued a Cargo Ship Safety Construction Certificate under SOLAS 1974?",
+    "answer": "500 gross tonnage and over."
+  },
+  {
+    "id": "1973",
+    "question": "Which document must be permanently attached to a Cargo Ship Safety Equipment Certificate?",
+    "answer": "A Record of Equipment (Form E)."
+  },
+  {
+    "id": "1974",
+    "question": "What is the minimum gross tonnage threshold for a cargo ship equipped with a radio installation to require a Cargo Ship Safety Radio Certificate?",
+    "answer": "300 gross tonnage and over."
+  },
+  {
+    "id": "1975",
+    "question": "Which attached record document corresponds to the Cargo Ship Safety Radio Certificate?",
+    "answer": "A Record of Equipment (Form R)."
+  },
+  {
+    "id": "1976",
+    "question": "What certificate may be issued under the 1988 SOLAS Protocol as a single alternative to the Safety Construction, Safety Equipment, and Safety Radio certificates?",
+    "answer": "Cargo Ship Safety Certificate (with Form C permanently attached)."
+  },
+  {
+    "id": "1977",
+    "question": "The Ship Structure Access Manual requirement applies to oil tankers of 500 gross tonnage and over, as well as bulk carriers of what minimum gross tonnage?",
+    "answer": "20,000 gross tonnage and over."
+  },
+  {
+    "id": "1978",
+    "question": "In bulk carriers, what specific physical property of the cargo must be explicitly provided in writing by the shipper prior to loading?",
+    "answer": "The density of the cargo."
+  },
+  {
+    "id": "1979",
+    "question": "What booklet must be provided to the master of a ship loading and unloading solid bulk cargoes to prevent excessive stress on the ship's structure?",
+    "answer": "The Bulk Carrier Booklet (referred to in SOLAS regulation VI/7.2 / BLU Code)."
+  },
+  {
+    "id": "1980",
+    "question": "Every ship loaded in accordance with the International Code for the Safe Carriage of Grain in Bulk must carry which two items (or one unified document)?",
+    "answer": "A document of authorization for the carriage of grain and a grain loading manual."
+  },
+  {
+    "id": "1981",
+    "question": "Which instrument code governs the enhanced survey report file required on board bulk carriers and oil tankers?",
+    "answer": "The 2011 ESP Code (Enhanced Survey Programme)."
+  },
+  {
+    "id": "1982",
+    "question": "What operational manual must be provided to a product carrier of 40,000 tonnes deadweight and above delivered on or before 1 June 1982 that uses dedicated clean ballast tanks?",
+    "answer": "Dedicated Clean Ballast Tank Operation Manual."
+  },
+  {
+    "id": "1983",
+    "question": "What code or scheme requires a Statement of Compliance, a Final Report, and a Review Record to be placed on board complying oil tankers?",
+    "answer": "The Condition Assessment Scheme (CAS)."
+  },
+  {
+    "id": "1984",
+    "question": "According to MARPOL Annex I regulation 28, what type of approved information must be supplied to oil tankers regarding damage stability?",
+    "answer": "Information relative to loading and distribution of cargo, and data on the ability of the ship to comply with damage stability criteria."
+  },
+  {
+    "id": "1985",
+    "question": "For how long must the continuous records from an approved oil discharge monitoring and control system (ODMC) be kept on board an oil tanker?",
+    "answer": "For at least three years."
+  },
+  {
+    "id": "1986",
+    "question": "What parameters must the recording device of an approved oil discharge monitoring and control system continuously log?",
+    "answer": "The discharge in litres per nautical mile and total quantity discharged, or the oil content and rate of discharge (identifiable as to time and date)."
+  },
+  {
+    "id": "1987",
+    "question": "Every oil tanker operating with crude oil washing systems must carry which mandatory operational document?",
+    "answer": "A Crude Oil Washing Operation and Equipment Manual (COW Manual)."
+  },
+  {
+    "id": "1988",
+    "question": "By what date must an oil tanker carry an approved STS operations plan prescribing how to conduct ship-to-ship transfers?",
+    "answer": "Not later than the date of the first annual, intermediate, or renewal survey carried out on or after 1 January 2011."
+  },
+  {
+    "id": "1989",
+    "question": "In what language must an oil tanker's STS operations plan be written?",
+    "answer": "The working language of the ship."
+  },
+  {
+    "id": "1990",
+    "question": "For how long must the records of ship-to-ship (STS) operations be retained on board an oil tanker?",
+    "answer": "Three years."
+  },
+  {
+    "id": "1991",
+    "question": "Under MARPOL Annex VI regulation 15.6, what plan must a tanker carrying crude oil have on board and implement?",
+    "answer": "A VOC (Volatile Organic Compounds) Management Plan."
+  },
+  {
+    "id": "1992",
+    "question": "By what absolute deadline must ships subject to the IBC, IGC, BCH, and GC Codes be fitted with an approved stability instrument?",
+    "answer": "At the first scheduled renewal survey on or after 1 January 2016, but not later than 1 January 2021."
+  },
+  {
+    "id": "1993",
+    "question": "Under CLC 1969 and CLC 1992, what is the minimum cargo capacity threshold of oil carried in bulk that triggers the requirement for a certificate of insurance or financial security for civil liability?",
+    "answer": "More than 2,000 tonnes of oil."
+  },
+  {
+    "id": "1994",
+    "question": "Which certificate is required for any ship engaged in international voyages carrying noxious liquid substances in bulk?",
+    "answer": "International Pollution Prevention Certificate for the Carriage of Noxious Liquid Substances in Bulk (NLS Certificate)."
+  },
+  {
+    "id": "1995",
+    "question": "Which two specific certificates have the same force and recognition as an NLS Certificate when carried by chemical tankers?",
+    "answer": "The Certificate of Fitness for the Carriage of Dangerous Chemicals in Bulk and the International Certificate of Fitness for the Carriage of Dangerous Chemicals in Bulk."
+  },
+  {
+    "id": "1996",
+    "question": "What are the acceptable formats for maintaining a Cargo Record Book on ships carrying noxious liquid substances in bulk?",
+    "answer": "As part of the ship's official logbook, as an electronic record book approved by the Administration, or otherwise in the form specified in appendix II to Annex II."
+  },
+  {
+    "id": "1997",
+    "question": "What manual must be on board every ship certified to carry noxious liquid substances in bulk under MARPOL Annex II regulation 14?",
+    "answer": "Procedures and Arrangements Manual (P & A Manual)."
+  },
+  {
+    "id": "1998",
+    "question": "What is the minimum gross tonnage required for a ship carrying noxious liquid substances in bulk to carry an approved shipboard marine pollution emergency plan?",
+    "answer": "150 gross tonnage and above."
+  },
+  {
+    "id": "1999",
+    "question": "Under MARPOL Annex II, the Bulk Chemical (BCH) Code is mandatory for chemical tankers constructed before which date?",
+    "answer": "Before 1 July 1986."
+  },
+  {
+    "id": "2000",
+    "question": "Under both SOLAS 1974 and MARPOL Annex II, the International Bulk Chemical (IBC) Code is mandatory for chemical tankers constructed on or after which date?",
+    "answer": "On or after 1 July 1986."
+  },
+  {
+    "id": "2001",
+    "question": "Which code sets out the model form for the International Certificate of Fitness for the Carriage of Liquefied Gases in Bulk mandatory for gas carriers constructed on or after 1 July 1986?",
+    "answer": "The International Gas Carrier Code (IGC Code)."
+  },
+  {
+    "id": "2002",
+    "question": "What emergency system procedures must be detailed within the approved cargo operations manuals of a gas carrier under the IGC Code?",
+    "answer": "Procedures for the ESD (Emergency Shutdown) system and emergency isolating operations of PRVs (Pressure Relief Valves)."
+  },
+  {
+    "id": "2003",
+    "question": "Which two certificates must a high-speed craft carry in addition to standard certificates under the 1994 or 2000 HSC Codes?",
+    "answer": "High-Speed Craft Safety Certificate and Permit to Operate High-Speed Craft."
+  },
+  {
+    "id": "2004",
+    "question": "For ships carrying dangerous goods under SOLAS 1974 regulation II-2/19.4, certification is explicitly excluded for which cargo classes or quantities?",
+    "answer": "Cargoes specified as class 6.2 and 7, and dangerous goods in limited quantities."
+  },
+  {
+    "id": "2005",
+    "question": "Which document, detailed by the IMDG Code, must accompany transport information for dangerous goods in packaged form to verify container security?",
+    "answer": "The container/vehicle packing certificate."
+  },
+  {
+    "id": "2006",
+    "question": "What specific operational document can be used on board a ship in place of a dangerous goods manifest or special list?",
+    "answer": "A detailed stowage plan identifying by class and setting out the location of all dangerous goods on board."
+  },
+  {
+    "id": "2007",
+    "question": "A ship carrying packaged irradiated nuclear fuel, plutonium, and high-level radioactive wastes must carry which certificate of fitness?",
+    "answer": "International Certificate of Fitness for the Carriage of INF Cargo."
+  },
+  {
+    "id": "2008",
+    "question": "What document must be kept on board a Nuclear Ship for the guidance of operating personnel regarding power plant safety?",
+    "answer": "An approved, up-to-date operating manual for the nuclear power plant."
+  },
+  {
+    "id": "2009",
+    "question": "Which specific safety certificates replace the standard Cargo or Passenger Ship Safety Certificates for nuclear-powered vessels?",
+    "answer": "Nuclear Cargo Ship Safety Certificate or Nuclear Passenger Ship Safety Certificate."
+  },
+  {
+    "id": "2010",
+    "question": "Ships operating in polar waters are required by the Polar Code to hold which certificate?",
+    "answer": "Polar Ship Certificate (including a supplement recording required equipment)."
+  },
+  {
+    "id": "2011",
+    "question": "What operational manual is mandatory for every ship to which the Polar Code applies?",
+    "answer": "Polar Water Operational Manual (PWOM)."
+  },
+  {
+    "id": "2012",
+    "question": "Ships using gases or other low-flashpoint fuels must carry maintenance, emergency, and operational procedures, including what specific handling manual?",
+    "answer": "A suitably detailed fuel handling manual."
+  },
+  {
+    "id": "2013",
+    "question": "The 2008 Special Purpose Ship (SPS) Code applies to every special purpose ship certified on or after 13 May 2008 with what minimum tonnage?",
+    "answer": "Not less than 500 gross tonnage (GT)."
+  },
+  {
+    "id": "2014",
+    "question": "Which guideline framework determines the issuance of an Offshore Supply Vessel Document of Compliance?",
+    "answer": "Guidelines for the design and construction of offshore supply vessels, 2006 (Resolution MSC.235(82))."
+  },
+  {
+    "id": "2015",
+    "question": "A Diving System Safety Certificate is issued after survey or inspection to a diving system complying with the Code of Safety for Diving Systems. Who assumes full responsibility for this certificate?",
+    "answer": "The Administration"
+  },
+  {
+    "id": "2016",
+    "question": "To what specific type of passenger craft is the Safety Compliance Certificate for Passenger Submersible Craft applicable?",
+    "answer": "Submersible craft adapted to accommodate passengers and intended for underwater excursions with the pressure in the passenger compartment at or near one atmosphere."
+  },
+  {
+    "id": "2017",
+    "question": "What specific document issued by the Administration must be attached to the Safety Compliance Certificate for Passenger Submersible Craft?",
+    "answer": "A Design and Construction Document"
+  },
+  {
+    "id": "2018",
+    "question": "Under what specific code is the Dynamically Supported Craft Construction and Equipment Certificate issued?",
+    "answer": "DSC Code (resolution A.373(X), as amended)"
+  },
+  {
+    "id": "2019",
+    "question": "The Mobile Offshore Drilling Unit Safety Certificate is issued under different MODU Codes depending on construction dates. Which code applies to units constructed on or after 1 January 2012?",
+    "answer": "2009 MODU Code (resolution A.1023(26), as amended)"
+  },
+  {
+    "id": "2020",
+    "question": "What two distinct operational or safety documents are required for a wing-in-ground (WIG) craft under MSC.1/Circ.1592?",
+    "answer": "Wing-in-ground Craft Safety Certificate and Permit to Operate WIG Craft"
+  },
+  {
+    "id": "2021",
+    "question": "To which category of ships does the mandatory Noise Survey Report under resolution A.468(XII) apply?",
+    "answer": "Existing ships to which SOLAS regulation II-1/3-12 does not apply."
+  },
+  {
+    "id": "2022",
+    "question": "Where must the Coating Technical File be kept and maintained throughout the life of the ship?",
+    "answer": "On board the ship"
+  },
+  {
+    "id": "2023",
+    "question": "The Coating Technical File must contain specifications for the coating system applied to which specific locations on bulk carriers of 150 meters in length and upwards?",
+    "answer": "Dedicated seawater ballast tanks and double-side skin spaces"
+  },
+  {
+    "id": "2024",
+    "question": "According to SOLAS regulation II-1/3-4, what ship-specific procedure must all ships be provided with for use in emergency situations?",
+    "answer": "Emergency Towing Procedure"
+  },
+  {
+    "id": "2025",
+    "question": "A set of as-built construction drawings showing subsequent structural alterations must be kept on board ships constructed on or after what date?",
+    "answer": "1 January 2007"
+  },
+  {
+    "id": "2026",
+    "question": "A Ship Construction File is required for tankers and bulk carriers of 150 meters in length and above under certain conditions. What is the delivery date threshold on or after which a ship must carry this file?",
+    "answer": "1 July 2020"
+  },
+  {
+    "id": "2027",
+    "question": "Under SOLAS regulation II-1/3-12, a Noise Survey Report must be carried on board and accessible to the crew for new ships of what minimum gross tonnage?",
+    "answer": "1,600 gross tonnage and above"
+  },
+  {
+    "id": "2028",
+    "question": "What size threshold determines when a cargo ship must be inclined on completion to have its stability elements determined?",
+    "answer": "24 meters and over"
+  },
+  {
+    "id": "2029",
+    "question": "For ships constructed from 1 January 2010, how must the intact and damage stability information required by SOLAS regulation II-1/5-1 be presented?",
+    "answer": "As consolidated data encompassing the full operating range of draught and trim."
+  },
+  {
+    "id": "2030",
+    "question": "On passenger and cargo ships, what plans must be permanently exhibited showing clearly for each deck and hold the boundaries of watertight compartments and their means of closure?",
+    "answer": "Damage control plans"
+  },
+  {
+    "id": "2031",
+    "question": "What booklet contains details of stopping times, ship headings, and distances recorded on trials, as well as multiple-propeller navigation capabilities?",
+    "answer": "Manoeuvring booklet"
+  },
+  {
+    "id": "2032",
+    "question": "Where must a copy of the documentation indicating approval for alternative designs and arrangements under SOLAS Chapter II-1, II-2, and III be carried?",
+    "answer": "On board the ship"
+  },
+  {
+    "id": "2033",
+    "question": "What specific low-location system information must be included in the maintenance plan for passenger ships carrying more than 36 passengers?",
+    "answer": "Low-location lighting and public address systems"
+  },
+  {
+    "id": "2034",
+    "question": "In what language must the fire safety training manual be written?",
+    "answer": "The working language of the ship"
+  },
+  {
+    "id": "2035",
+    "question": "Where must copies of the fire safety training manual be provided on board?",
+    "answer": "In each crew mess room and recreation room, or in each crew cabin."
+  },
+  {
+    "id": "2036",
+    "question": "Where must the duplicate set of fire control plans or booklet be permanently stored for the assistance of shoreside fire-fighting personnel?",
+    "answer": "In a prominently marked weathertight enclosure outside the deckhouse."
+  },
+  {
+    "id": "2037",
+    "question": "Each helicopter facility, if fitted on board, is required to have what specific document that includes safety precautions and checklists?",
+    "answer": "An operations manual for helicopter facility"
+  },
+  {
+    "id": "2038",
+    "question": "What is the final deadline date by which lifeboat on-load release mechanisms not complying with paragraphs 4.4.7.6.4 to 4.4.7.6.6 of the LSA Code had to be replaced?",
+    "answer": "1 July 2019"
+  },
+  {
+    "id": "2039",
+    "question": "Where must the muster list and emergency instructions be exhibited on board a ship?",
+    "answer": "In conspicuous places throughout the ship, including the navigation bridge, engine-room, and crew accommodation spaces."
+  },
+  {
+    "id": "2040",
+    "question": "In the case of passenger ships, what languages are required for the emergency instructions?",
+    "answer": "The language(s) required by its flag State and the English language."
+  },
+  {
+    "id": "2041",
+    "question": "Ships constructed before 1 July 2014 were required to comply with ship-specific plans and procedures for recovery of persons from the water by which event?",
+    "answer": "The first periodical or renewal safety equipment survey of the ship carried out after 1 July 2014, whichever came first."
+  },
+  {
+    "id": "2042",
+    "question": "The plans and procedures for recovering persons from the water should be considered part of what emergency plan required by the ISM Code?",
+    "answer": "The emergency preparedness plan required by paragraph 8 of the ISM Code."
+  },
+  {
+    "id": "2043",
+    "question": "What document is issued by the Administration as evidence of the minimum safe manning for a ship?",
+    "answer": "Minimum safe manning document (or equivalent)"
+  },
+  {
+    "id": "2044",
+    "question": "How frequently must a voyage data recorder (VDR) system undergo a performance test to maintain its certificate of compliance?",
+    "answer": "Annually (every year)"
+  },
+  {
+    "id": "2045",
+    "question": "What documentation must be retained on board to verify that the Automatic Identification System (AIS) has been tested by an approved surveyor or facility?",
+    "answer": "AIS test report"
+  },
+  {
+    "id": "2046",
+    "question": "What electronic system is accepted as meeting the chart carriage requirements of SOLAS regulations V/19.2.1.4 and V/27?",
+    "answer": "Electronic Chart Display and Information System (ECDIS)"
+  },
+  {
+    "id": "2047",
+    "question": "Who issues the LRIT conformance test report upon satisfactory completion of a conformance test?",
+    "answer": "The Administration or the Authorized Service Provider (ASP) acting on its behalf."
+  },
+  {
+    "id": "2048",
+    "question": "All ships required to carry a radio installation must carry the International Code of Signals and an up-to-date copy of which volume of the IAMSAR Manual?",
+    "answer": "Volume III"
+  },
+  {
+    "id": "2049",
+    "question": "According to the OSV Chemical Code, what certificate must be issued and suitably endorsed after an initial survey to an offshore support vessel carrying hazardous and noxious liquid substances in bulk?",
+    "answer": "Certificate of Fitness for Offshore Support Vessels"
   }
 ]
