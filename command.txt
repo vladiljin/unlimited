@@ -15,4 +15,4 @@ If an image is needed for the answer, place it on the first line after --- ANSWE
 followed by the answer text.
 Questions should be clear, concise, and avoid giving away the answer. Answers should be accurate and may include a brief explanation when helpful. Output only the formatted question-answer pairs with no additional text.
 
-OCR Text:
+OCR Text (use only normal symbols for txt file, otherwise i get error text):

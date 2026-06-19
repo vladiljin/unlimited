@@ -2931,7 +2931,7 @@ A list is achieved by shifting a known weight athwartships, which causes the shi
 --- QUESTION 0543 ---
 What is the formula used to calculate the shift in the center of gravity (GG1) during the Inclining Experiment?
 --- ANSWER ---
-[IMAGE: page-3.jpg]
+[IMAGE: gg1-formula.jpg]
 GG1 = (w * d) / W, where 'w' is the shifted weight, 'd' is the distance the weight is moved, and 'W' is the displacement of the vessel.
 
 --- QUESTION 0544 ---
@@ -3006,106 +3006,7 @@ Describe how a plumb line is utilized to measure deflection when conducting the 
 --- ANSWER ---
 [IMAGE: page-13.jpg]
 A plumb line is suspended from a point 'O'. When the ship is upright, it hangs down and crosses a batten at point 'X'. When the ship is listed, the plumb line deflects to point 'Y' along the batten to measure the deflection.
-"""
-print("Total questions:", len(text.strip().split("--- QUESTION ")))
 
-
-
-```
-
-```text
-Total questions: 16
-
-
-```
-
-```python
-output = """--- QUESTION 0541 ---
-What is the primary purpose of the Inclining Experiment?
---- ANSWER ---
-The purpose of the Inclining Experiment is to determine the lightship parameters of a vessel, specifically to determine the KG of the ship in the light displacement condition.
-
---- QUESTION 0542 ---
-How is a list induced during an Inclining Experiment to determine the vertical center of gravity of a ship?
---- ANSWER ---
-A list is achieved by shifting a weight athwartships, causing the center of gravity to move off the center-line to G1.
-
---- QUESTION 0543 ---
-What formula calculates the shift in the center of gravity during the Inclining Experiment?
---- ANSWER ---
-[IMAGE: page-3.jpg]
-
-GG1 = (w * d) / W, where w is the shifted weight, d is the distance the weight is moved, and W is the displacement of the vessel.
-
---- QUESTION 0544 ---
-What ship plans and data must be available to the person in charge of the Inclining Experiment?
---- ANSWER ---
-The required plans and data include the lines plan, hydrostatic curves or data, general arrangement plan of decks/holds/inner bottoms, capacity plan showing capacities and vertical/longitudinal centers of gravity, tank sounding tables, draught mark locations, and docking drawing with keel profile and draught mark corrections if available.
-
---- QUESTION 0545 ---
-When must an Inclining Experiment be performed on cargo ships?
---- ANSWER ---
-On completion of build to determine its stability data, and whenever alterations are made to the ship which will affect its stability.
-
---- QUESTION 0546 ---
-According to Section 8 of the Intact Stability Code, how often should a lightweight survey be carried out on passenger ships?
---- ANSWER ---
-At intervals not exceeding five years to verify any changes in lightship displacement and longitudinal center of gravity.
-
---- QUESTION 0547 ---
-How can free surface effects be minimized in tanks prior to an Inclining Experiment?
---- ANSWER ---
-By emptying tanks completely and limiting the number of slack tanks.
-
---- QUESTION 0548 ---
-What precautions must be taken regarding pressed-up tanks before an Inclining Experiment?
---- ANSWER ---
-They must be completely full with no voids, and personnel should be aware of entrapped air in the tank.
-
---- QUESTION 0549 ---
-What factors regarding mooring arrangements should be considered prior to an Inclining Experiment?
---- ANSWER ---
-Consider depth of water, wind, and current. The ship should be moored in a quiet area away from the wash of passing vessels and must be free to list to allow readings to be taken.
-
---- QUESTION 0550 ---
-What are the marking and certification requirements for test weights used in an Inclining Experiment?
---- ANSWER ---
-Weights must be marked with an identification number and its weight, and weight certification should be presented.
-
---- QUESTION 0551 ---
-What is the minimum recommended length or deflection capability for the pendulum used in an Inclining Experiment?
---- ANSWER ---
-The pendulum should be long enough to give a measured deflection to each side of the upright of at least 15 cm.
-
---- QUESTION 0552 ---
-What tasks are included in the initial walk-through and survey phase of conducting an Inclining Test?
---- ANSWER ---
-Considering weather conditions, ensuring suspended items are secured on the vessel, and checking all plans and equipment to be used.
-
---- QUESTION 0553 ---
-What is the purpose of taking freeboard and draught readings during the Inclining Test?
---- ANSWER ---
-To determine the displacement of the ship at the time of the inclining test.
-
---- QUESTION 0554 ---
-What checks and actions must be taken during the third phase when inclining the vessel?
---- ANSWER ---
-Check that the vessel is floating freely, check the pendulum and record the length, mark the initial position of the weights on the deck, check communication, and check that all personnel are in place.
-
---- QUESTION 0555 ---
-How is a plumb line and batten setup used to measure deflection when the ship is listed during the Inclining Experiment?
---- ANSWER ---
-[IMAGE: page-13.jpg]
-
-A plumb line is suspended and attached to a point O. When the ship is upright, it hangs down and crosses a batten at point X. When the ship is listed, the plumb line is deflected to point Y along the batten.
-"""
-print(output)
-
-
-
-```
-
-```text
 --- QUESTION 0541 ---
 What is the primary purpose of the Inclining Experiment?
 --- ANSWER ---
@@ -3119,7 +3020,7 @@ A list is achieved by shifting a weight athwartships, causing the center of grav
 --- QUESTION 0543 ---
 What formula calculates the shift in the center of gravity during the Inclining Experiment?
 --- ANSWER ---
-[IMAGE: page-3.jpg]
+[IMAGE: gg1-formula.jpg]
 
 GG1 = (w * d) / W, where w is the shifted weight, d is the distance the weight is moved, and W is the displacement of the vessel.
 
@@ -3185,9 +3086,84 @@ How is a plumb line and batten setup used to measure deflection when the ship is
 
 A plumb line is suspended and attached to a point O. When the ship is upright, it hangs down and crosses a batten at point X. When the ship is listed, the plumb line is deflected to point Y along the batten.
 
+--- QUESTION 0541 ---
+What is the primary purpose of the Inclining Experiment?
+--- ANSWER ---
+The purpose of the Inclining Experiment is to determine the lightship parameters of a vessel, specifically to determine the KG of the ship in the light displacement condition.
 
+--- QUESTION 0542 ---
+How is a list induced during an Inclining Experiment to determine the vertical center of gravity of a ship?
+--- ANSWER ---
+A list is achieved by shifting a weight athwartships, causing the center of gravity to move off the center-line to G1.
 
-```
+--- QUESTION 0543 ---
+What formula calculates the shift in the center of gravity during the Inclining Experiment?
+--- ANSWER ---
+[IMAGE: gg1-formula.jpg]
+
+GG1 = (w * d) / W, where w is the shifted weight, d is the distance the weight is moved, and W is the displacement of the vessel.
+
+--- QUESTION 0544 ---
+What ship plans and data must be available to the person in charge of the Inclining Experiment?
+--- ANSWER ---
+The required plans and data include the lines plan, hydrostatic curves or data, general arrangement plan of decks/holds/inner bottoms, capacity plan showing capacities and vertical/longitudinal centers of gravity, tank sounding tables, draught mark locations, and docking drawing with keel profile and draught mark corrections if available.
+
+--- QUESTION 0545 ---
+When must an Inclining Experiment be performed on cargo ships?
+--- ANSWER ---
+On completion of build to determine its stability data, and whenever alterations are made to the ship which will affect its stability.
+
+--- QUESTION 0546 ---
+According to Section 8 of the Intact Stability Code, how often should a lightweight survey be carried out on passenger ships?
+--- ANSWER ---
+At intervals not exceeding five years to verify any changes in lightship displacement and longitudinal center of gravity.
+
+--- QUESTION 0547 ---
+How can free surface effects be minimized in tanks prior to an Inclining Experiment?
+--- ANSWER ---
+By emptying tanks completely and limiting the number of slack tanks.
+
+--- QUESTION 0548 ---
+What precautions must be taken regarding pressed-up tanks before an Inclining Experiment?
+--- ANSWER ---
+They must be completely full with no voids, and personnel should be aware of entrapped air in the tank.
+
+--- QUESTION 0549 ---
+What factors regarding mooring arrangements should be considered prior to an Inclining Experiment?
+--- ANSWER ---
+Consider depth of water, wind, and current. The ship should be moored in a quiet area away from the wash of passing vessels and must be free to list to allow readings to be taken.
+
+--- QUESTION 0550 ---
+What are the marking and certification requirements for test weights used in an Inclining Experiment?
+--- ANSWER ---
+Weights must be marked with an identification number and its weight, and weight certification should be presented.
+
+--- QUESTION 0551 ---
+What is the minimum recommended length or deflection capability for the pendulum used in an Inclining Experiment?
+--- ANSWER ---
+The pendulum should be long enough to give a measured deflection to each side of the upright of at least 15 cm.
+
+--- QUESTION 0552 ---
+What tasks are included in the initial walk-through and survey phase of conducting an Inclining Test?
+--- ANSWER ---
+Considering weather conditions, ensuring suspended items are secured on the vessel, and checking all plans and equipment to be used.
+
+--- QUESTION 0553 ---
+What is the purpose of taking freeboard and draught readings during the Inclining Test?
+--- ANSWER ---
+To determine the displacement of the ship at the time of the inclining test.
+
+--- QUESTION 0554 ---
+What checks and actions must be taken during the third phase when inclining the vessel?
+--- ANSWER ---
+Check that the vessel is floating freely, check the pendulum and record the length, mark the initial position of the weights on the deck, check communication, and check that all personnel are in place.
+
+--- QUESTION 0555 ---
+How is a plumb line and batten setup used to measure deflection when the ship is listed during the Inclining Experiment?
+--- ANSWER ---
+[IMAGE: page-13.jpg]
+
+A plumb line is suspended and attached to a point O. When the ship is upright, it hangs down and crosses a batten at point X. When the ship is listed, the plumb line is deflected to point Y along the batten.
 
 --- QUESTION 0541 ---
 What is the primary purpose of the Inclining Experiment?
@@ -3202,7 +3178,7 @@ A list is achieved by shifting a weight athwartships, causing the center of grav
 --- QUESTION 0543 ---
 What formula calculates the shift in the center of gravity during the Inclining Experiment?
 --- ANSWER ---
-[IMAGE: page-3.jpg]
+[IMAGE: gg1-formula-3.jpg]
 
 GG1 = (w * d) / W, where w is the shifted weight, d is the distance the weight is moved, and W is the displacement of the vessel.
 
@@ -4856,120 +4832,6 @@ Identify three main components or locations where errors can originate within a 
 1. The satellites (orbit errors, clocks)
 2. The radio signal in space (ionosphere/troposphere delay, multipath reflections)
 3. The receiver on the ground (user equipment errors)
-
---- QUESTION 0862 ---
-What maritime symbol or display status is indicated by the ECDIS symbol on page-1.jpg?
---- ANSWER ---
-[IMAGE: page-1.jpg]
-Radar Standby
-
---- QUESTION 0863 ---
-What specific type of navigation mark is identified on page-11.jpg?
---- ANSWER ---
-[IMAGE: page-10.jpg]
-South Cardinal Mark
-
---- QUESTION 0864 ---
-What type of hazard or aid to navigation is shown on page-13.jpg?
---- ANSWER ---
-[IMAGE: page-12.jpg]
-Isolated danger
-
---- QUESTION 0865 ---
-What kind of maritime mark is represented on page-15.jpg?
---- ANSWER ---
-[IMAGE: page-14.jpg]
-Safe water mark
-
---- QUESTION 0866 ---
-What navigation system equipment or signal type is identified on page-17.jpg?
---- ANSWER ---
-[IMAGE: page-16.jpg]
-Radar Transponder
-
---- QUESTION 0867 ---
-What specific floating aid to navigation with an audible warning is indicated on page-19.jpg?
---- ANSWER ---
-[IMAGE: page-18.jpg]
-Lighted super buoy with fog signal
-
---- QUESTION 0868 ---
-What specific aid to navigation or hazard feature is identified on page-21.jpg?
---- ANSWER ---
-[IMAGE: page-20.jpg]
-Isolated danger mark
-
---- QUESTION 0869 ---
-What maritime service location or boarding facility is shown on page-23.jpg?
---- ANSWER ---
-[IMAGE: page-22.jpg]
-Pilot Station
-
---- QUESTION 0870 ---
-What category of navigation aids is identified on page-25.jpg?
---- ANSWER ---
-[IMAGE: page-24.jpg]
-Special marks
-
---- QUESTION 0871 ---
-What ECDIS data quality indicator or feature classification is shown on page-27.jpg?
---- ANSWER ---
-[IMAGE: page-26.jpg]
-Catzoc (Category of Zone of Confidence)
-
---- QUESTION 0872 ---
-What chart feature or text indicator is represented on page-29.jpg?
---- ANSWER ---
-[IMAGE: page-28.jpg]
-Additional information note
-
---- QUESTION 0873 ---
-What traffic routing feature is identified on page-3.jpg?
---- ANSWER ---
-[IMAGE: page-2.jpg]
-roundabout
-
---- QUESTION 0874 ---
-What category of IALA buoyage marks is identified on page-31.jpg?
---- ANSWER ---
-[IMAGE: page-30.jpg]
-Cardinal marks
-
---- QUESTION 0875 ---
-What type of anchoring or securing arrangement is shown on page-33.jpg?
---- ANSWER ---
-[IMAGE: page-32.jpg]
-Mooring buoy
-
---- QUESTION 0876 ---
-What specific underwater hazards are represented by the symbol on page-35.jpg?
---- ANSWER ---
-[IMAGE: page-34.jpg]
-Isolated danger; wreck rock or obstruction
-
---- QUESTION 0877 ---
-What type of chart entry or warning indicator is represented on page-37.jpg?
---- ANSWER ---
-[IMAGE: page-36.jpg]
-Isolated query mark indicating insufficient information to symbolise feature
-
---- QUESTION 0878 ---
-What lateral aid to navigation system and side is identified on page-5.jpg?
---- ANSWER ---
-[IMAGE: page-4.jpg]
-Stbd Lateral Mark IALA A
-
---- QUESTION 0879 ---
-What lateral aid to navigation system and side is identified on page-7.jpg?
---- ANSWER ---
-[IMAGE: page-6.jpg]
-Port hand lateral IALA B
-
---- QUESTION 0880 ---
-What specific temporary or specialized navigation mark is identified on page-9.jpg?
---- ANSWER ---
-[IMAGE: page-8.jpg]
-Emergency Wreck or special purpose
 
 --- QUESTION 0881 ---
 Which chapter of SOLAS covers the FSS Code and Inert Gas System requirements for oil tankers?
@@ -10292,4 +10154,732 @@ What function does a bill of lading perform regarding loaded goods?
 --- ANSWER ---
 It serves as a receipt for the goods loaded.
 
+--- QUESTION 1906 ---
+When a ship is in sheltered harbor waters, how does its permitted stress level from static loads compare to when it is at sea?
+--- ANSWER ---
+The ship's hull girder is permitted to carry a higher level of stress imposed by static loads in a harbor because it is subjected to reduced dynamic loads.
 
+--- QUESTION 1907 ---
+What instrument provides the means to calculate the shear forces and bending moments for any ship load or ballast condition onboard?
+--- ANSWER ---
+The ship's loading instrument.
+
+--- QUESTION 1908 ---
+According to the provided maximum permissible still water shear forces table, what is the positive permissible shear force in kilonewtons (kN) at frame 24 under harbor conditions?
+--- ANSWER ---
+20,500 kN
+
+--- QUESTION 1909 ---
+According to the maximum permissible still water bending moments table, what is the negative permissible bending moment in kilonewton-meters (kNm) at frame 37 under sea conditions?
+--- ANSWER ---
+-180,000 kNm
+
+--- QUESTION 1910 ---
+What is the definition of Safe Working Load (SWL)?
+--- ANSWER ---
+The maximum load that lifting equipment is certified to withstand and use.
+
+--- QUESTION 1911 ---
+What is the definition of Working Load Limit (WLL)?
+--- ANSWER ---
+The maximum load that lifting equipment is certified to withstand under normal use and in a given configuration.
+
+--- QUESTION 1912 ---
+According to the IMCA Guidelines for Lifting Operations, what is a "Thorough examination"?
+--- ANSWER ---
+An examination carried out by an independent competent person, carefully and critically, and supplemented where necessary by other means of measurement, non-destructive testing, or other testing, to detect defects or weaknesses and assess their importance regarding safety and continued use.
+
+--- QUESTION 1913 ---
+What are the minimum draught restrictions for the vessel's fore and aft positions, including the recommendation for when slamming is expected?
+--- ANSWER ---
+The minimum draught fore is 5.20 m (recommended when slamming can be expected), and the minimum draught aft is 6.50 m (or 7.10 m for heavy ballast condition only).
+
+--- QUESTION 1914 ---
+Which code and regulations govern the carriage of project cargo/heavy lifts under international requirements and UK standards?
+--- ANSWER ---
+The CSS Code (Code of Safe Practice for Cargo Stowage and Securing) and the UK LOLER Regulations (Lifting Operations and Lifting Equipment Regulations).
+
+--- QUESTION 1915 ---
+Under which SOLAS chapter are the Cargo Securing Manual and the Carriage of Cargoes regulated?
+--- ANSWER ---
+SOLAS Chapter VI (and Chapter VII for cargo securing requirements).
+
+--- QUESTION 1916 ---
+What international guidelines govern the safe packing of cargo in containers?
+--- ANSWER ---
+CTU Packing Guidelines (Cargo Transport Units Packing Guidelines).
+
+--- QUESTION 1917 ---
+What five general steps define the process for lifting operations within a ship's safety management system?
+--- ANSWER ---
+
+1. Complete the lift in accordance with the safety management system
+2. Plan the lift (develop a Lifting Plan)
+3. Conduct a risk assessment
+4. Ensure the operation is supervised
+5. Ensure the operation is completed with competent personnel and proper equipment
+
+--- QUESTION 1918 ---
+List three environmental considerations to assess prior to a heavy lift operation.
+--- ANSWER ---
+Any three of the following: weather, wind, and sea forces; maximum significant wave height; maximum wind speed; and vessel motion and stability.
+
+--- QUESTION 1919 ---
+List three operational considerations regarding vessel capabilities and equipment for heavy lift operations.
+--- ANSWER ---
+Any three of the following: vessel lifting arrangements; vessel capabilities and procedures to operate lifting systems; operational limitations of equipment; limitations of cargo capacities; stability limiting curves; recommendations for calculating ship's loading conditions; maximum duration of lift; and traffic/traffic control limitations.
+
+--- QUESTION 1920 ---
+What structural items or records must a lifting plan utilize to ensure all equipment is certified and properly maintained?
+--- ANSWER ---
+The Lifting Register and the Planned Maintenance System (PMS).
+
+--- QUESTION 1921 ---
+According to the Intact Stability Code 2008, what is the formula for the threshold value for heeling moment (M)?
+--- ANSWER ---
+M = 0.67 * GM * (f/B)
+
+--- QUESTION 1922 ---
+What three specific physical parameters of the load must be factored into the operational considerations for stability under the Intact Stability Code?
+--- ANSWER ---
+
+1. The size of the vertical load
+2. The transverse distance between the point of lift and the centerline
+3. The vertical height of the load (KG load)
+
+--- QUESTION 1923 ---
+What factors should be assessed regarding the load itself and its handling before executing a heavy lift?
+--- ANSWER ---
+The weight of the load (and whether it is verified), the certification of the lifting points, the center of gravity (COG), whether the load is fragile, and whether it contains liquids.
+
+--- QUESTION 1924 ---
+What actions should be taken regarding the ship's physical position and access equipment immediately prior to starting a heavy lift operation?
+--- ANSWER ---
+Check the vessel moorings, pre-rig fenders, lift the gangway, and lower or remove the ship's railings.
+
+--- QUESTION 1925 ---
+Why are steadying lines attached to a heavy load prior to lifting?
+--- ANSWER ---
+To control the movement of the load and prevent swinging during the lift.
+
+--- QUESTION 1926 ---
+What are the three categories of solid bulk cargoes defined by the IMSBC Code?
+--- ANSWER ---
+Group A, Group B, and Group C.
+
+--- QUESTION 1927 ---
+How is a Group A solid bulk cargo defined?
+--- ANSWER ---
+Cargoes which may liquefy if shipped at a moisture content exceeding their Transportable Moisture Limit (TML).
+
+--- QUESTION 1928 ---
+How is a Group B solid bulk cargo defined?
+--- ANSWER ---
+Cargoes which possess a chemical hazard which could give rise to a dangerous situation on a ship.
+
+--- QUESTION 1929 ---
+How is a Group C solid bulk cargo defined?
+--- ANSWER ---
+Cargoes which are neither liable to liquefy (Group A) nor possess chemical hazards (Group B).
+
+--- QUESTION 1930 ---
+According to the passenger vessel stability criteria after flooding, what is the minimum value that the final GM must not be less than?
+--- ANSWER ---
+0.05 m (50 mm)
+
+--- QUESTION 1931 ---
+According to the criteria for passenger vessels after flooding, what three factors determine the heeling moment used to calculate the righting lever (GZ)?
+--- ANSWER ---
+(i) Crowding of passengers to one side, (ii) launching of fully loaded survival craft on one side, or (iii) pressure of wind on one side; whichever is the greater.
+
+--- QUESTION 1932 ---
+What is the minimum required residual area for the righting lever curve of a passenger vessel after flooding?
+--- ANSWER ---
+Not less than 0.015 m-rad.
+
+--- QUESTION 1933 ---
+What is the minimum allowable maximum righting lever (GZ) value for passenger vessels after flooding?
+--- ANSWER ---
+0.1 m
+
+--- QUESTION 1934 ---
+What is the standard minimum range of stability required for a passenger vessel after flooding, and under what condition can it be reduced to 10 degrees?
+--- ANSWER ---
+The range must not be less than 15 degrees, but it can be reduced to 10 degrees if the residual area is greater than 0.015 + (0.015 x 15) m-rad.
+
+--- QUESTION 1935 ---
+What is the maximum allowable final list for a passenger vessel experiencing 1-compartment flooding?
+--- ANSWER ---
+Not greater than 7 degrees.
+
+--- QUESTION 1936 ---
+What is the maximum allowable final list for a passenger vessel experiencing flooding in two or more adjacent compartments?
+--- ANSWER ---
+Not greater than 12 degrees.
+
+--- QUESTION 1937 ---
+When major progressive flooding occurs that causes a rapid reduction in the righting lever of 0.04 metres or more, how is the righting lever curve evaluated?
+--- ANSWER ---
+The curve is considered terminated at the angle at which the progressive flooding occurs, and the range and area must be measured to that specific angle.
+
+--- QUESTION 1938 ---
+Which software suite is highlighted for providing a clear user interface for monitoring live stability conditions, assessing damage results, and handling planning processes simultaneously?
+--- ANSWER ---
+NAPA Stability
+
+--- QUESTION 1939 ---
+What water density value is typically used in the NAPA Stability draft survey calculation window shown in the text?
+--- ANSWER ---
+1.025 t/m3
+
+--- QUESTION 1940 ---
+What features does the NAPA Emergency Computer platform use to continuously monitor and assess an intact ship's overall safety and vulnerability level?
+--- ANSWER ---
+It monitors sensors, open watertight doors, and sea conditions, displaying the overall vulnerability level via a green-yellow-red color code.
+
+--- QUESTION 1941 ---
+How does the NAPA Emergency Computer respond when water ingress is detected by flooding level sensors or via manual input?
+--- ANSWER ---
+It automatically switches over to emergency mode and begins calculating a flooding assessment, allowing officers to monitor the effects on a timeline.
+
+--- QUESTION 1942 ---
+What tool is included in the NAPA Emergency Computer to assist the crew with an emergency plan, checklists, or multi-level task advisories during a flooding incident?
+--- ANSWER ---
+Advisory cards
+
+--- QUESTION 1943 ---
+How can shoreside experts or Fleet Operations Centers access critical NAPA Stability information remotely?
+--- ANSWER ---
+Through a cloud-based platform called NAPA Fleet Intelligence.
+
+--- QUESTION 1944 ---
+How is the term "permeability" defined in the context of ship stability and flooding?
+--- ANSWER ---
+Permeability refers to the amount of water that can enter a space if that compartment is breached or flooded.
+
+--- QUESTION 1945 ---
+According to MSN 1715, what is the specific permeability value assigned to spaces occupied by accommodation?
+--- ANSWER ---
+0.95
+
+--- QUESTION 1946 ---
+According to MSN 1715, what is the permeability value assigned to spaces appropriated to stores?
+--- ANSWER ---
+0.60
+
+--- QUESTION 1947 ---
+According to MSN 1715, what is the permeability value assigned to machinery spaces?
+--- ANSWER ---
+0.85
+
+--- QUESTION 1948 ---
+According to MSN 1715, what is the permeability value assigned to dry cargo spaces?
+--- ANSWER ---
+0.70
+
+--- QUESTION 1949 ---
+What are the three consequences of ship flooding listed in the text?
+--- ANSWER ---
+
+1. Loss of freeboard, 2. Change of trim, and 3. Listing.
+
+--- QUESTION 1950 ---
+What types of bulkheads are utilized in ship design to sub-divide a ship and contain flooding to the minimum number of spaces?
+--- ANSWER ---
+Transverse bulkheads and longitudinal bulkheads.
+
+--- QUESTION 1951 ---
+Which convention and specific chapters/annexes govern the subdivision and damage stability standards for Passenger Ships and Oil Tankers respectively?
+--- ANSWER ---
+Passenger Ships are governed by SOLAS Chapter II-1 (Parts B to B-4), and Oil Tankers are governed by MARPOL Annex I.
+
+--- QUESTION 1952 ---
+Which international safety code applies to the construction and equipment of chemical tankers carrying dangerous chemicals in bulk?
+--- ANSWER ---
+The International Bulk Chemical Code (IBC Code).
+
+--- QUESTION 1953 ---
+Which international code governs the subdivision and stability standards for gas carriers carrying liquefied gases in bulk?
+--- ANSWER ---
+The International Gas Carrier Code (IGC Code).
+
+--- QUESTION 1954 ---
+What are the three distinct methods of calculation used for subdivision and damage stability as listed in the text?
+--- ANSWER ---
+
+1. Floodable length method, 2. Probabilistic method, and 3. Deterministic method.
+
+--- QUESTION 1955 ---
+In what year was the floodable length method removed from SOLAS and replaced by the probabilistic method for passenger ships?
+--- ANSWER ---
+2009
+
+--- QUESTION 1956 ---
+To which types and sizes of vessels does the probabilistic method of stability calculation apply?
+--- ANSWER ---
+Internationally trading passenger ships of all sizes, and cargo ships of more than 500 GT and a length of 80 metres or more.
+
+--- QUESTION 1957 ---
+To which categories of specialized ships is the deterministic method of damage stability calculation applicable?
+--- ANSWER ---
+Tankers, gas carriers, and chemical carriers.
+
+--- QUESTION 1958 ---
+What mandatory damage control documentation must be carried onboard to assist the crew, as listed under "Information Required Onboard"?
+--- ANSWER ---
+Damage Control Plans and Damage Control Booklets.
+
+--- QUESTION 1959 ---
+What curves or tables must be included in a ship's Damage Control Booklet to ensure compliance with stability requirements?
+--- ANSWER ---
+A curve of minimum operational GM versus draft, or a corresponding curve of maximum allowable vertical centre of gravity (KG) versus draft (or a tabular representation of either curve).
+
+--- QUESTION 1960 ---
+What visual indicator is required on the bridge of a passenger vessel regarding damage control features?
+--- ANSWER ---
+A visual indication of the status (open or closed) of each watertight door.
+
+--- QUESTION 1961 ---
+How often must a Passenger Ship Damage Control Drill be conducted?
+--- ANSWER ---
+At least every 3 months.
+
+--- QUESTION 1962 ---
+Who is required to participate in the Passenger Ship Damage Control Drills?
+--- ANSWER ---
+Only crew members with damage control responsibilities.
+
+--- QUESTION 1963 ---
+Name four items that must be included in the practical training or evaluation during a passenger ship damage control drill.
+--- ANSWER ---
+Any four of the following: reporting to stations; using damage control information/stability computers; establishing internal/external communications; operating watertight doors; using flooding detection systems; operating cross-flooding/equalization systems; operating bilge pumps; or receiving instruction in damage surveys.
+
+--- QUESTION 1964 ---
+According to SOLAS 1974 regulation III/29, what system must be provided on the navigation bridge of all passenger ships for emergency management?
+--- ANSWER ---
+A decision support system for masters.
+
+--- QUESTION 1965 ---
+Which plan is required on board passenger ships to outline emergency response actions with appropriate search and rescue services?
+--- ANSWER ---
+A search and rescue cooperation plan (mandated by SOLAS 1974 regulation V/7.3).
+
+--- QUESTION 1966 ---
+What information must be included in the list of operational limitations kept on board a passenger ship under SOLAS 1974 regulation V/30?
+--- ANSWER ---
+All limitations on the operation of the ship, including exemptions from SOLAS regulations, restrictions in operating areas, weather restrictions, sea state restrictions, restrictions in permissible loads, trim, speed, and any other administration or design limits.
+
+--- QUESTION 1967 ---
+Under the provisions of the Special Trade Passenger Ships Agreement, 1971, what certificate is issued to verify safety compliance?
+--- ANSWER ---
+Special Trade Passenger Ship Safety Certificate.
+
+--- QUESTION 1968 ---
+Which certificate is issued under the provisions of the 1973 Protocol on Space Requirements for Special Trade Passenger Ships?
+--- ANSWER ---
+Special Trade Passenger Ship Space Certificate.
+
+--- QUESTION 1969 ---
+A certificate of insurance or financial security regarding liability for passenger death and personal injury is required for ships licensed to carry more than how many passengers?
+--- ANSWER ---
+More than 12 passengers.
+
+--- QUESTION 1970 ---
+Under PAL 1974 (modified by PAL PROT 2002), if a ship is not registered in a State Party, who may issue or certify its certificate of financial security for passenger liability?
+--- ANSWER ---
+The appropriate authority of any State Party.
+
+--- QUESTION 1971 ---
+What specific examples of exceptions and limitations are recommended for insurance certificates under resolution A.988(24) and Circular Letter No. 2758?
+--- ANSWER ---
+The biochemical clause and terrorism-related clauses.
+
+--- QUESTION 1972 ---
+What is the minimum gross tonnage required for a cargo ship to be issued a Cargo Ship Safety Construction Certificate under SOLAS 1974?
+--- ANSWER ---
+500 gross tonnage and over.
+
+--- QUESTION 1973 ---
+Which document must be permanently attached to a Cargo Ship Safety Equipment Certificate?
+--- ANSWER ---
+A Record of Equipment (Form E).
+
+--- QUESTION 1974 ---
+What is the minimum gross tonnage threshold for a cargo ship equipped with a radio installation to require a Cargo Ship Safety Radio Certificate?
+--- ANSWER ---
+300 gross tonnage and over.
+
+--- QUESTION 1975 ---
+Which attached record document corresponds to the Cargo Ship Safety Radio Certificate?
+--- ANSWER ---
+A Record of Equipment (Form R).
+
+--- QUESTION 1976 ---
+What certificate may be issued under the 1988 SOLAS Protocol as a single alternative to the Safety Construction, Safety Equipment, and Safety Radio certificates?
+--- ANSWER ---
+Cargo Ship Safety Certificate (with Form C permanently attached).
+
+--- QUESTION 1977 ---
+The Ship Structure Access Manual requirement applies to oil tankers of 500 gross tonnage and over, as well as bulk carriers of what minimum gross tonnage?
+--- ANSWER ---
+20,000 gross tonnage and over.
+
+--- QUESTION 1978 ---
+In bulk carriers, what specific physical property of the cargo must be explicitly provided in writing by the shipper prior to loading?
+--- ANSWER ---
+The density of the cargo.
+
+--- QUESTION 1979 ---
+What booklet must be provided to the master of a ship loading and unloading solid bulk cargoes to prevent excessive stress on the ship's structure?
+--- ANSWER ---
+The Bulk Carrier Booklet (referred to in SOLAS regulation VI/7.2 / BLU Code).
+
+--- QUESTION 1980 ---
+Every ship loaded in accordance with the International Code for the Safe Carriage of Grain in Bulk must carry which two items (or one unified document)?
+--- ANSWER ---
+A document of authorization for the carriage of grain and a grain loading manual.
+
+--- QUESTION 1981 ---
+Which instrument code governs the enhanced survey report file required on board bulk carriers and oil tankers?
+--- ANSWER ---
+The 2011 ESP Code (Enhanced Survey Programme).
+
+--- QUESTION 1982 ---
+What operational manual must be provided to a product carrier of 40,000 tonnes deadweight and above delivered on or before 1 June 1982 that uses dedicated clean ballast tanks?
+--- ANSWER ---
+Dedicated Clean Ballast Tank Operation Manual.
+
+--- QUESTION 1983 ---
+What code or scheme requires a Statement of Compliance, a Final Report, and a Review Record to be placed on board complying oil tankers?
+--- ANSWER ---
+The Condition Assessment Scheme (CAS).
+
+--- QUESTION 1984 ---
+According to MARPOL Annex I regulation 28, what type of approved information must be supplied to oil tankers regarding damage stability?
+--- ANSWER ---
+Information relative to loading and distribution of cargo, and data on the ability of the ship to comply with damage stability criteria.
+
+--- QUESTION 1985 ---
+For how long must the continuous records from an approved oil discharge monitoring and control system (ODMC) be kept on board an oil tanker?
+--- ANSWER ---
+For at least three years.
+
+--- QUESTION 1986 ---
+What parameters must the recording device of an approved oil discharge monitoring and control system continuously log?
+--- ANSWER ---
+The discharge in litres per nautical mile and total quantity discharged, or the oil content and rate of discharge (identifiable as to time and date).
+
+--- QUESTION 1987 ---
+Every oil tanker operating with crude oil washing systems must carry which mandatory operational document?
+--- ANSWER ---
+A Crude Oil Washing Operation and Equipment Manual (COW Manual).
+
+--- QUESTION 1988 ---
+By what date must an oil tanker carry an approved STS operations plan prescribing how to conduct ship-to-ship transfers?
+--- ANSWER ---
+Not later than the date of the first annual, intermediate, or renewal survey carried out on or after 1 January 2011.
+
+--- QUESTION 1989 ---
+In what language must an oil tanker's STS operations plan be written?
+--- ANSWER ---
+The working language of the ship.
+
+--- QUESTION 1990 ---
+For how long must the records of ship-to-ship (STS) operations be retained on board an oil tanker?
+--- ANSWER ---
+Three years.
+
+--- QUESTION 1991 ---
+Under MARPOL Annex VI regulation 15.6, what plan must a tanker carrying crude oil have on board and implement?
+--- ANSWER ---
+A VOC (Volatile Organic Compounds) Management Plan.
+
+--- QUESTION 1992 ---
+By what absolute deadline must ships subject to the IBC, IGC, BCH, and GC Codes be fitted with an approved stability instrument?
+--- ANSWER ---
+At the first scheduled renewal survey on or after 1 January 2016, but not later than 1 January 2021.
+
+--- QUESTION 1993 ---
+Under CLC 1969 and CLC 1992, what is the minimum cargo capacity threshold of oil carried in bulk that triggers the requirement for a certificate of insurance or financial security for civil liability?
+--- ANSWER ---
+More than 2,000 tonnes of oil.
+
+--- QUESTION 1994 ---
+Which certificate is required for any ship engaged in international voyages carrying noxious liquid substances in bulk?
+--- ANSWER ---
+International Pollution Prevention Certificate for the Carriage of Noxious Liquid Substances in Bulk (NLS Certificate).
+
+--- QUESTION 1995 ---
+Which two specific certificates have the same force and recognition as an NLS Certificate when carried by chemical tankers?
+--- ANSWER ---
+The Certificate of Fitness for the Carriage of Dangerous Chemicals in Bulk and the International Certificate of Fitness for the Carriage of Dangerous Chemicals in Bulk.
+
+--- QUESTION 1996 ---
+What are the acceptable formats for maintaining a Cargo Record Book on ships carrying noxious liquid substances in bulk?
+--- ANSWER ---
+As part of the ship's official logbook, as an electronic record book approved by the Administration, or otherwise in the form specified in appendix II to Annex II.
+
+--- QUESTION 1997 ---
+What manual must be on board every ship certified to carry noxious liquid substances in bulk under MARPOL Annex II regulation 14?
+--- ANSWER ---
+Procedures and Arrangements Manual (P & A Manual).
+
+--- QUESTION 1998 ---
+What is the minimum gross tonnage required for a ship carrying noxious liquid substances in bulk to carry an approved shipboard marine pollution emergency plan?
+--- ANSWER ---
+150 gross tonnage and above.
+
+--- QUESTION 1999 ---
+Under MARPOL Annex II, the Bulk Chemical (BCH) Code is mandatory for chemical tankers constructed before which date?
+--- ANSWER ---
+Before 1 July 1986.
+
+--- QUESTION 2000 ---
+Under both SOLAS 1974 and MARPOL Annex II, the International Bulk Chemical (IBC) Code is mandatory for chemical tankers constructed on or after which date?
+--- ANSWER ---
+On or after 1 July 1986.
+
+--- QUESTION 2001 ---
+Which code sets out the model form for the International Certificate of Fitness for the Carriage of Liquefied Gases in Bulk mandatory for gas carriers constructed on or after 1 July 1986?
+--- ANSWER ---
+The International Gas Carrier Code (IGC Code).
+
+--- QUESTION 2002 ---
+What emergency system procedures must be detailed within the approved cargo operations manuals of a gas carrier under the IGC Code?
+--- ANSWER ---
+Procedures for the ESD (Emergency Shutdown) system and emergency isolating operations of PRVs (Pressure Relief Valves).
+
+--- QUESTION 2003 ---
+Which two certificates must a high-speed craft carry in addition to standard certificates under the 1994 or 2000 HSC Codes?
+--- ANSWER ---
+High-Speed Craft Safety Certificate and Permit to Operate High-Speed Craft.
+
+--- QUESTION 2004 ---
+For ships carrying dangerous goods under SOLAS 1974 regulation II-2/19.4, certification is explicitly excluded for which cargo classes or quantities?
+--- ANSWER ---
+Cargoes specified as class 6.2 and 7, and dangerous goods in limited quantities.
+
+--- QUESTION 2005 ---
+Which document, detailed by the IMDG Code, must accompany transport information for dangerous goods in packaged form to verify container security?
+--- ANSWER ---
+The container/vehicle packing certificate.
+
+--- QUESTION 2006 ---
+What specific operational document can be used on board a ship in place of a dangerous goods manifest or special list?
+--- ANSWER ---
+A detailed stowage plan identifying by class and setting out the location of all dangerous goods on board.
+
+--- QUESTION 2007 ---
+A ship carrying packaged irradiated nuclear fuel, plutonium, and high-level radioactive wastes must carry which certificate of fitness?
+--- ANSWER ---
+International Certificate of Fitness for the Carriage of INF Cargo.
+
+--- QUESTION 2008 ---
+What document must be kept on board a Nuclear Ship for the guidance of operating personnel regarding power plant safety?
+--- ANSWER ---
+An approved, up-to-date operating manual for the nuclear power plant.
+
+--- QUESTION 2009 ---
+Which specific safety certificates replace the standard Cargo or Passenger Ship Safety Certificates for nuclear-powered vessels?
+--- ANSWER ---
+Nuclear Cargo Ship Safety Certificate or Nuclear Passenger Ship Safety Certificate.
+
+--- QUESTION 2010 ---
+Ships operating in polar waters are required by the Polar Code to hold which certificate?
+--- ANSWER ---
+Polar Ship Certificate (including a supplement recording required equipment).
+
+--- QUESTION 2011 ---
+What operational manual is mandatory for every ship to which the Polar Code applies?
+--- ANSWER ---
+Polar Water Operational Manual (PWOM).
+
+--- QUESTION 2012 ---
+Ships using gases or other low-flashpoint fuels must carry maintenance, emergency, and operational procedures, including what specific handling manual?
+--- ANSWER ---
+A suitably detailed fuel handling manual.
+
+--- QUESTION 2013 ---
+The 2008 Special Purpose Ship (SPS) Code applies to every special purpose ship certified on or after 13 May 2008 with what minimum tonnage?
+--- ANSWER ---
+Not less than 500 gross tonnage (GT).
+
+--- QUESTION 2014 ---
+Which guideline framework determines the issuance of an Offshore Supply Vessel Document of Compliance?
+--- ANSWER ---
+Guidelines for the design and construction of offshore supply vessels, 2006 (Resolution MSC.235(82)).
+
+--- QUESTION 2015 ---
+A Diving System Safety Certificate is issued after survey or inspection to a diving system complying with the Code of Safety for Diving Systems. Who assumes full responsibility for this certificate?
+--- ANSWER ---
+The Administration
+
+--- QUESTION 2016 ---
+To what specific type of passenger craft is the Safety Compliance Certificate for Passenger Submersible Craft applicable?
+--- ANSWER ---
+Submersible craft adapted to accommodate passengers and intended for underwater excursions with the pressure in the passenger compartment at or near one atmosphere.
+
+--- QUESTION 2017 ---
+What specific document issued by the Administration must be attached to the Safety Compliance Certificate for Passenger Submersible Craft?
+--- ANSWER ---
+A Design and Construction Document
+
+--- QUESTION 2018 ---
+Under what specific code is the Dynamically Supported Craft Construction and Equipment Certificate issued?
+--- ANSWER ---
+DSC Code (resolution A.373(X), as amended)
+
+--- QUESTION 2019 ---
+The Mobile Offshore Drilling Unit Safety Certificate is issued under different MODU Codes depending on construction dates. Which code applies to units constructed on or after 1 January 2012?
+--- ANSWER ---
+2009 MODU Code (resolution A.1023(26), as amended)
+
+--- QUESTION 2020 ---
+What two distinct operational or safety documents are required for a wing-in-ground (WIG) craft under MSC.1/Circ.1592?
+--- ANSWER ---
+Wing-in-ground Craft Safety Certificate and Permit to Operate WIG Craft
+
+--- QUESTION 2021 ---
+To which category of ships does the mandatory Noise Survey Report under resolution A.468(XII) apply?
+--- ANSWER ---
+Existing ships to which SOLAS regulation II-1/3-12 does not apply.
+
+--- QUESTION 2022 ---
+Where must the Coating Technical File be kept and maintained throughout the life of the ship?
+--- ANSWER ---
+On board the ship
+
+--- QUESTION 2023 ---
+The Coating Technical File must contain specifications for the coating system applied to which specific locations on bulk carriers of 150 meters in length and upwards?
+--- ANSWER ---
+Dedicated seawater ballast tanks and double-side skin spaces
+
+--- QUESTION 2024 ---
+According to SOLAS regulation II-1/3-4, what ship-specific procedure must all ships be provided with for use in emergency situations?
+--- ANSWER ---
+Emergency Towing Procedure
+
+--- QUESTION 2025 ---
+A set of as-built construction drawings showing subsequent structural alterations must be kept on board ships constructed on or after what date?
+--- ANSWER ---
+1 January 2007
+
+--- QUESTION 2026 ---
+A Ship Construction File is required for tankers and bulk carriers of 150 meters in length and above under certain conditions. What is the delivery date threshold on or after which a ship must carry this file?
+--- ANSWER ---
+1 July 2020
+
+--- QUESTION 2027 ---
+Under SOLAS regulation II-1/3-12, a Noise Survey Report must be carried on board and accessible to the crew for new ships of what minimum gross tonnage?
+--- ANSWER ---
+1,600 gross tonnage and above
+
+--- QUESTION 2028 ---
+What size threshold determines when a cargo ship must be inclined on completion to have its stability elements determined?
+--- ANSWER ---
+24 meters and over
+
+--- QUESTION 2029 ---
+For ships constructed from 1 January 2010, how must the intact and damage stability information required by SOLAS regulation II-1/5-1 be presented?
+--- ANSWER ---
+As consolidated data encompassing the full operating range of draught and trim.
+
+--- QUESTION 2030 ---
+On passenger and cargo ships, what plans must be permanently exhibited showing clearly for each deck and hold the boundaries of watertight compartments and their means of closure?
+--- ANSWER ---
+Damage control plans
+
+--- QUESTION 2031 ---
+What booklet contains details of stopping times, ship headings, and distances recorded on trials, as well as multiple-propeller navigation capabilities?
+--- ANSWER ---
+Manoeuvring booklet
+
+--- QUESTION 2032 ---
+Where must a copy of the documentation indicating approval for alternative designs and arrangements under SOLAS Chapter II-1, II-2, and III be carried?
+--- ANSWER ---
+On board the ship
+
+--- QUESTION 2033 ---
+What specific low-location system information must be included in the maintenance plan for passenger ships carrying more than 36 passengers?
+--- ANSWER ---
+Low-location lighting and public address systems
+
+--- QUESTION 2034 ---
+In what language must the fire safety training manual be written?
+--- ANSWER ---
+The working language of the ship
+
+--- QUESTION 2035 ---
+Where must copies of the fire safety training manual be provided on board?
+--- ANSWER ---
+In each crew mess room and recreation room, or in each crew cabin.
+
+--- QUESTION 2036 ---
+Where must the duplicate set of fire control plans or booklet be permanently stored for the assistance of shoreside fire-fighting personnel?
+--- ANSWER ---
+In a prominently marked weathertight enclosure outside the deckhouse.
+
+--- QUESTION 2037 ---
+Each helicopter facility, if fitted on board, is required to have what specific document that includes safety precautions and checklists?
+--- ANSWER ---
+An operations manual for helicopter facility
+
+--- QUESTION 2038 ---
+What is the final deadline date by which lifeboat on-load release mechanisms not complying with paragraphs 4.4.7.6.4 to 4.4.7.6.6 of the LSA Code had to be replaced?
+--- ANSWER ---
+1 July 2019
+
+--- QUESTION 2039 ---
+Where must the muster list and emergency instructions be exhibited on board a ship?
+--- ANSWER ---
+In conspicuous places throughout the ship, including the navigation bridge, engine-room, and crew accommodation spaces.
+
+--- QUESTION 2040 ---
+In the case of passenger ships, what languages are required for the emergency instructions?
+--- ANSWER ---
+The language(s) required by its flag State and the English language.
+
+--- QUESTION 2041 ---
+Ships constructed before 1 July 2014 were required to comply with ship-specific plans and procedures for recovery of persons from the water by which event?
+--- ANSWER ---
+The first periodical or renewal safety equipment survey of the ship carried out after 1 July 2014, whichever came first.
+
+--- QUESTION 2042 ---
+The plans and procedures for recovering persons from the water should be considered part of what emergency plan required by the ISM Code?
+--- ANSWER ---
+The emergency preparedness plan required by paragraph 8 of the ISM Code.
+
+--- QUESTION 2043 ---
+What document is issued by the Administration as evidence of the minimum safe manning for a ship?
+--- ANSWER ---
+Minimum safe manning document (or equivalent)
+
+--- QUESTION 2044 ---
+How frequently must a voyage data recorder (VDR) system undergo a performance test to maintain its certificate of compliance?
+--- ANSWER ---
+Annually (every year)
+
+--- QUESTION 2045 ---
+What documentation must be retained on board to verify that the Automatic Identification System (AIS) has been tested by an approved surveyor or facility?
+--- ANSWER ---
+AIS test report
+
+--- QUESTION 2046 ---
+What electronic system is accepted as meeting the chart carriage requirements of SOLAS regulations V/19.2.1.4 and V/27?
+--- ANSWER ---
+Electronic Chart Display and Information System (ECDIS)
+
+--- QUESTION 2047 ---
+Who issues the LRIT conformance test report upon satisfactory completion of a conformance test?
+--- ANSWER ---
+The Administration or the Authorized Service Provider (ASP) acting on its behalf.
+
+--- QUESTION 2048 ---
+All ships required to carry a radio installation must carry the International Code of Signals and an up-to-date copy of which volume of the IAMSAR Manual?
+--- ANSWER ---
+Volume III
+
+--- QUESTION 2049 ---
+According to the OSV Chemical Code, what certificate must be issued and suitably endorsed after an initial survey to an offshore support vessel carrying hazardous and noxious liquid substances in bulk?
+--- ANSWER ---
+Certificate of Fitness for Offshore Support Vessels
